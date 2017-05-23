@@ -1,0 +1,5792 @@
+===============================================
+maximum iterations in the kMeans loop in the Improve-Parameter part
+ ===============================================
+ --------------------------------------
+Parameter value 1646
+ --------------------------------------
+{
+  "clusters": [
+    {
+      "clusterNumber": 0,
+      "vectorData": [
+        {
+          "value": 350.667,
+          "name": "Boiling_Point__(øC)"
+        },
+        {
+          "value": -34.367,
+          "name": "Melting_Point__(øC)"
+        },
+        {
+          "value": 0.001,
+          "name": "Vapour_Pressure_(25øC_mmHg)"
+        },
+        {
+          "value": 154.433,
+          "name": "Flash_Point__(øC)"
+        },
+        {
+          "value": 399.0,
+          "name": "Autoignition_Temperature__(øC)"
+        },
+        {
+          "value": 17.367,
+          "name": "Hansen_Delta_D_(MPa1_2)"
+        },
+        {
+          "value": 6.733,
+          "name": "Hansen_Delta_P_(MPa1_2)"
+        },
+        {
+          "value": 4.567,
+          "name": "Hansen_Delta_H_(MPa1_2)"
+        },
+        {
+          "value": 0.377,
+          "name": "Solubility_Water_(20_øC_g_L)"
+        },
+        {
+          "value": 1.033,
+          "name": "Density_(25øC__kg_L)"
+        },
+        {
+          "value": 12.947,
+          "name": "Viscosity_(25øC__mPa_s)"
+        },
+        {
+          "value": 7.181,
+          "name": "Relative_Vapour_Density__(Air=1)"
+        },
+        {
+          "value": 5.305,
+          "name": "Log_P_Octanol_Water_(20øC)"
+        },
+        {
+          "value": 1.479,
+          "name": "Refractive_Index_(20øC)"
+        },
+        {
+          "value": 33.677,
+          "name": "Surface_Tension_(25øC_mN_m)"
+        }
+      ],
+      "distanceToCluster": [
+        {
+          "clusterId": 0,
+          "distance": 0.0
+        },
+        {
+          "clusterId": 1,
+          "distance": 362.64046550267938
+        }
+      ],
+      "solvents": [
+        {
+          "iD_Name": "\"Bis(2-ethylhexyl)_adipate\"",
+          "iD_CAS_Nr": "\"103-23-1\"",
+          "iD_EG_Nr": "\"203-090-1\"",
+          "iD_EG_Annex_Nr": "\"NAV\"",
+          "source": "\"Mixed\"",
+          "name": "\"Bis(2-ethylhexyl)_adipate\"",
+          "casNumber": "\"103-23-1\"",
+          "features": [
+            {
+              "name": "Boiling_Point__(øC)",
+              "value": 417.0
+            },
+            {
+              "name": "Melting_Point__(øC)",
+              "value": -67.8
+            },
+            {
+              "name": "Vapour_Pressure_(25øC_mmHg)",
+              "value": 6.44303E-06
+            },
+            {
+              "name": "Flash_Point__(øC)",
+              "value": 168.9
+            },
+            {
+              "name": "Autoignition_Temperature__(øC)",
+              "value": 350.0
+            },
+            {
+              "name": "Hansen_Delta_D_(MPa1_2)",
+              "value": 16.7
+            },
+            {
+              "name": "Hansen_Delta_P_(MPa1_2)",
+              "value": 2.0
+            },
+            {
+              "name": "Hansen_Delta_H_(MPa1_2)",
+              "value": 5.1
+            },
+            {
+              "name": "Solubility_Water_(20_øC_g_L)",
+              "value": 0.00078
+            },
+            {
+              "name": "Density_(25øC__kg_L)",
+              "value": 0.93
+            },
+            {
+              "name": "Viscosity_(25øC__mPa_s)",
+              "value": 11.76
+            },
+            {
+              "name": "Relative_Vapour_Density__(Air=1)",
+              "value": 12.8
+            },
+            {
+              "name": "Log_P_Octanol_Water_(20øC)",
+              "value": 8.114
+            },
+            {
+              "name": "Refractive_Index_(20øC)",
+              "value": 1.4474
+            },
+            {
+              "name": "Surface_Tension_(25øC_mN_m)",
+              "value": 29.71
+            }
+          ],
+          "distanceToCluster": 90.598121305221113,
+          "ehs_S_SCORE": "\"1\"",
+          "ehs_H_SCORE": "\"0\"",
+          "ehs_E_SCORE": "\"7\"",
+          "ehs_COLOR_CODE": "\"FFD700\""
+        },
+        {
+          "iD_Name": "\"diethyl_phtalate\"",
+          "iD_CAS_Nr": "\"84-66-2\"",
+          "iD_EG_Nr": "\"NAV\"",
+          "iD_EG_Annex_Nr": "\"NAV\"",
+          "source": "\"Mixed\"",
+          "name": "\"diethyl_phtalate\"",
+          "casNumber": "\"84-66-2\"",
+          "features": [
+            {
+              "name": "Boiling_Point__(øC)",
+              "value": 295.0
+            },
+            {
+              "name": "Melting_Point__(øC)",
+              "value": -0.3
+            },
+            {
+              "name": "Vapour_Pressure_(25øC_mmHg)",
+              "value": 0.002100173
+            },
+            {
+              "name": "Flash_Point__(øC)",
+              "value": 117.0
+            },
+            {
+              "name": "Autoignition_Temperature__(øC)",
+              "value": 457.0
+            },
+            {
+              "name": "Hansen_Delta_D_(MPa1_2)",
+              "value": 17.6
+            },
+            {
+              "name": "Hansen_Delta_P_(MPa1_2)",
+              "value": 9.6
+            },
+            {
+              "name": "Hansen_Delta_H_(MPa1_2)",
+              "value": 4.5
+            },
+            {
+              "name": "Solubility_Water_(20_øC_g_L)",
+              "value": 1.0
+            },
+            {
+              "name": "Density_(25øC__kg_L)",
+              "value": 1.12
+            },
+            {
+              "name": "Viscosity_(25øC__mPa_s)",
+              "value": 10.6
+            },
+            {
+              "name": "Relative_Vapour_Density__(Air=1)",
+              "value": 7.7
+            },
+            {
+              "name": "Log_P_Octanol_Water_(20øC)",
+              "value": 2.42
+            },
+            {
+              "name": "Refractive_Index_(20øC)",
+              "value": 1.5
+            },
+            {
+              "name": "Surface_Tension_(25øC_mN_m)",
+              "value": 36.06
+            }
+          ],
+          "distanceToCluster": 95.1475651722648,
+          "ehs_S_SCORE": "\"1\"",
+          "ehs_H_SCORE": "\"0\"",
+          "ehs_E_SCORE": "\"7\"",
+          "ehs_COLOR_CODE": "\"FFD700\""
+        },
+        {
+          "iD_Name": "\"Dibutyl_phthalate\"",
+          "iD_CAS_Nr": "\"84-74-2\"",
+          "iD_EG_Nr": "\"201-557-4\"",
+          "iD_EG_Annex_Nr": "\"NAV\"",
+          "source": "\"Mixed\"",
+          "name": "\"Dibutyl_phthalate\"",
+          "casNumber": "\"84-74-2\"",
+          "features": [
+            {
+              "name": "Boiling_Point__(øC)",
+              "value": 340.0
+            },
+            {
+              "name": "Melting_Point__(øC)",
+              "value": -35.0
+            },
+            {
+              "name": "Vapour_Pressure_(25øC_mmHg)",
+              "value": 2.01017E-05
+            },
+            {
+              "name": "Flash_Point__(øC)",
+              "value": 177.4
+            },
+            {
+              "name": "Autoignition_Temperature__(øC)",
+              "value": 390.0
+            },
+            {
+              "name": "Hansen_Delta_D_(MPa1_2)",
+              "value": 17.8
+            },
+            {
+              "name": "Hansen_Delta_P_(MPa1_2)",
+              "value": 8.6
+            },
+            {
+              "name": "Hansen_Delta_H_(MPa1_2)",
+              "value": 4.1
+            },
+            {
+              "name": "Solubility_Water_(20_øC_g_L)",
+              "value": 0.13
+            },
+            {
+              "name": "Density_(25øC__kg_L)",
+              "value": 1.05
+            },
+            {
+              "name": "Viscosity_(25øC__mPa_s)",
+              "value": 16.48
+            },
+            {
+              "name": "Relative_Vapour_Density__(Air=1)",
+              "value": 1.043
+            },
+            {
+              "name": "Log_P_Octanol_Water_(20øC)",
+              "value": 5.38
+            },
+            {
+              "name": "Refractive_Index_(20øC)",
+              "value": 1.49
+            },
+            {
+              "name": "Surface_Tension_(25øC_mN_m)",
+              "value": 35.26
+            }
+          ],
+          "distanceToCluster": 27.915766171828434,
+          "ehs_S_SCORE": "\"1\"",
+          "ehs_H_SCORE": "\"9\"",
+          "ehs_E_SCORE": "\"7\"",
+          "ehs_COLOR_CODE": "\"FF6347\""
+        }
+      ]
+    },
+    {
+      "clusterNumber": 1,
+      "vectorData": [
+        {
+          "value": 120.261,
+          "name": "Boiling_Point__(øC)"
+        },
+        {
+          "value": -71.344,
+          "name": "Melting_Point__(øC)"
+        },
+        {
+          "value": 56.355,
+          "name": "Vapour_Pressure_(25øC_mmHg)"
+        },
+        {
+          "value": 27.327,
+          "name": "Flash_Point__(øC)"
+        },
+        {
+          "value": 392.579,
+          "name": "Autoignition_Temperature__(øC)"
+        },
+        {
+          "value": 16.231,
+          "name": "Hansen_Delta_D_(MPa1_2)"
+        },
+        {
+          "value": 5.306,
+          "name": "Hansen_Delta_P_(MPa1_2)"
+        },
+        {
+          "value": 6.791,
+          "name": "Hansen_Delta_H_(MPa1_2)"
+        },
+        {
+          "value": 240.062,
+          "name": "Solubility_Water_(20_øC_g_L)"
+        },
+        {
+          "value": 0.932,
+          "name": "Density_(25øC__kg_L)"
+        },
+        {
+          "value": 1.122,
+          "name": "Viscosity_(25øC__mPa_s)"
+        },
+        {
+          "value": 3.546,
+          "name": "Relative_Vapour_Density__(Air=1)"
+        },
+        {
+          "value": 1.61,
+          "name": "Log_P_Octanol_Water_(20øC)"
+        },
+        {
+          "value": 1.417,
+          "name": "Refractive_Index_(20øC)"
+        },
+        {
+          "value": 26.123,
+          "name": "Surface_Tension_(25øC_mN_m)"
+        }
+      ],
+      "distanceToCluster": [
+        {
+          "clusterId": 0,
+          "distance": 362.64046550267938
+        },
+        {
+          "clusterId": 1,
+          "distance": 0.0
+        }
+      ],
+      "solvents": [
+        {
+          "iD_Name": "\"heptane\"",
+          "iD_CAS_Nr": "\"142-82-5\"",
+          "iD_EG_Nr": "\"205-563-8\"",
+          "iD_EG_Annex_Nr": "\"NAV\"",
+          "source": "\"PARIS_III\"",
+          "name": "\"heptane\"",
+          "casNumber": "\"142-82-5\"",
+          "features": [
+            {
+              "name": "Boiling_Point__(øC)",
+              "value": 98.5
+            },
+            {
+              "name": "Melting_Point__(øC)",
+              "value": -90.6
+            },
+            {
+              "name": "Vapour_Pressure_(25øC_mmHg)",
+              "value": 46.05378734
+            },
+            {
+              "name": "Flash_Point__(øC)",
+              "value": -1.1
+            },
+            {
+              "name": "Autoignition_Temperature__(øC)",
+              "value": 215.0
+            },
+            {
+              "name": "Hansen_Delta_D_(MPa1_2)",
+              "value": 15.3
+            },
+            {
+              "name": "Hansen_Delta_P_(MPa1_2)",
+              "value": 0.0
+            },
+            {
+              "name": "Hansen_Delta_H_(MPa1_2)",
+              "value": 0.0
+            },
+            {
+              "name": "Solubility_Water_(20_øC_g_L)",
+              "value": 0.0022
+            },
+            {
+              "name": "Density_(25øC__kg_L)",
+              "value": 0.7
+            },
+            {
+              "name": "Viscosity_(25øC__mPa_s)",
+              "value": 0.39
+            },
+            {
+              "name": "Relative_Vapour_Density__(Air=1)",
+              "value": 3.5
+            },
+            {
+              "name": "Log_P_Octanol_Water_(20øC)",
+              "value": 4.66
+            },
+            {
+              "name": "Refractive_Index_(20øC)",
+              "value": 1.388
+            },
+            {
+              "name": "Surface_Tension_(25øC_mN_m)",
+              "value": 19.65
+            }
+          ],
+          "distanceToCluster": 301.74241613884277,
+          "ehs_S_SCORE": "\"6\"",
+          "ehs_H_SCORE": "\"2\"",
+          "ehs_E_SCORE": "\"7\"",
+          "ehs_COLOR_CODE": "\"FFD700\""
+        },
+        {
+          "iD_Name": "\"octane\"",
+          "iD_CAS_Nr": "\"111-65-9\"",
+          "iD_EG_Nr": "\"NAV\"",
+          "iD_EG_Annex_Nr": "\"NAV\"",
+          "source": "\"Mixed\"",
+          "name": "\"octane\"",
+          "casNumber": "\"111-65-9\"",
+          "features": [
+            {
+              "name": "Boiling_Point__(øC)",
+              "value": 125.6
+            },
+            {
+              "name": "Melting_Point__(øC)",
+              "value": -56.8
+            },
+            {
+              "name": "Vapour_Pressure_(25øC_mmHg)",
+              "value": 14.10115964
+            },
+            {
+              "name": "Flash_Point__(øC)",
+              "value": 13.0
+            },
+            {
+              "name": "Autoignition_Temperature__(øC)",
+              "value": 220.0
+            },
+            {
+              "name": "Hansen_Delta_D_(MPa1_2)",
+              "value": 15.5
+            },
+            {
+              "name": "Hansen_Delta_P_(MPa1_2)",
+              "value": 0.0
+            },
+            {
+              "name": "Hansen_Delta_H_(MPa1_2)",
+              "value": 0.0
+            },
+            {
+              "name": "Solubility_Water_(20_øC_g_L)",
+              "value": 0.0007
+            },
+            {
+              "name": "Density_(25øC__kg_L)",
+              "value": 0.71
+            },
+            {
+              "name": "Viscosity_(25øC__mPa_s)",
+              "value": 0.5
+            },
+            {
+              "name": "Relative_Vapour_Density__(Air=1)",
+              "value": 3.9
+            },
+            {
+              "name": "Log_P_Octanol_Water_(20øC)",
+              "value": 5.18
+            },
+            {
+              "name": "Refractive_Index_(20øC)",
+              "value": 1.397
+            },
+            {
+              "name": "Surface_Tension_(25øC_mN_m)",
+              "value": 21.14
+            }
+          ],
+          "distanceToCluster": 299.59399954080919,
+          "ehs_S_SCORE": "\"5\"",
+          "ehs_H_SCORE": "\"2\"",
+          "ehs_E_SCORE": "\"7\"",
+          "ehs_COLOR_CODE": "\"FFD700\""
+        },
+        {
+          "iD_Name": "\"n-pentane\"",
+          "iD_CAS_Nr": "\"109-66-0\"",
+          "iD_EG_Nr": "\"203-692-4\"",
+          "iD_EG_Annex_Nr": "\"NAV\"",
+          "source": "\"Mixed\"",
+          "name": "\"n-pentane\"",
+          "casNumber": "\"109-66-0\"",
+          "features": [
+            {
+              "name": "Boiling_Point__(øC)",
+              "value": 36.0
+            },
+            {
+              "name": "Melting_Point__(øC)",
+              "value": -129.7
+            },
+            {
+              "name": "Vapour_Pressure_(25øC_mmHg)",
+              "value": 51.37922529
+            },
+            {
+              "name": "Flash_Point__(øC)",
+              "value": -49.4
+            },
+            {
+              "name": "Autoignition_Temperature__(øC)",
+              "value": 260.0
+            },
+            {
+              "name": "Hansen_Delta_D_(MPa1_2)",
+              "value": 14.5
+            },
+            {
+              "name": "Hansen_Delta_P_(MPa1_2)",
+              "value": 0.0
+            },
+            {
+              "name": "Hansen_Delta_H_(MPa1_2)",
+              "value": 0.0
+            },
+            {
+              "name": "Solubility_Water_(20_øC_g_L)",
+              "value": 0.041
+            },
+            {
+              "name": "Density_(25øC__kg_L)",
+              "value": 0.63
+            },
+            {
+              "name": "Viscosity_(25øC__mPa_s)",
+              "value": 0.22
+            },
+            {
+              "name": "Relative_Vapour_Density__(Air=1)",
+              "value": 2.5
+            },
+            {
+              "name": "Log_P_Octanol_Water_(20øC)",
+              "value": 3.39
+            },
+            {
+              "name": "Refractive_Index_(20øC)",
+              "value": 1.358
+            },
+            {
+              "name": "Surface_Tension_(25øC_mN_m)",
+              "value": 15.49
+            }
+          ],
+          "distanceToCluster": 302.98498407341026,
+          "ehs_S_SCORE": "\"8\"",
+          "ehs_H_SCORE": "\"3\"",
+          "ehs_E_SCORE": "\"7\"",
+          "ehs_COLOR_CODE": "\"FF6347\""
+        },
+        {
+          "iD_Name": "\"nonane\"",
+          "iD_CAS_Nr": "\"111-84-2\"",
+          "iD_EG_Nr": "\"NAV\"",
+          "iD_EG_Annex_Nr": "\"NAV\"",
+          "source": "\"Mixed\"",
+          "name": "\"nonane\"",
+          "casNumber": "\"111-84-2\"",
+          "features": [
+            {
+              "name": "Boiling_Point__(øC)",
+              "value": 150.8
+            },
+            {
+              "name": "Melting_Point__(øC)",
+              "value": -53.5
+            },
+            {
+              "name": "Vapour_Pressure_(25øC_mmHg)",
+              "value": 4.44786578
+            },
+            {
+              "name": "Flash_Point__(øC)",
+              "value": 31.1
+            },
+            {
+              "name": "Autoignition_Temperature__(øC)",
+              "value": 206.0
+            },
+            {
+              "name": "Hansen_Delta_D_(MPa1_2)",
+              "value": 15.7
+            },
+            {
+              "name": "Hansen_Delta_P_(MPa1_2)",
+              "value": 0.0
+            },
+            {
+              "name": "Hansen_Delta_H_(MPa1_2)",
+              "value": 0.0
+            },
+            {
+              "name": "Solubility_Water_(20_øC_g_L)",
+              "value": 7.0
+            },
+            {
+              "name": "Density_(25øC__kg_L)",
+              "value": 0.72
+            },
+            {
+              "name": "Viscosity_(25øC__mPa_s)",
+              "value": 0.67
+            },
+            {
+              "name": "Relative_Vapour_Density__(Air=1)",
+              "value": 4.4
+            },
+            {
+              "name": "Log_P_Octanol_Water_(20øC)",
+              "value": 5.65
+            },
+            {
+              "name": "Refractive_Index_(20øC)",
+              "value": 1.407
+            },
+            {
+              "name": "Surface_Tension_(25øC_mN_m)",
+              "value": 22.38
+            }
+          ],
+          "distanceToCluster": 305.27873762339414,
+          "ehs_S_SCORE": "\"3\"",
+          "ehs_H_SCORE": "\"2\"",
+          "ehs_E_SCORE": "\"7\"",
+          "ehs_COLOR_CODE": "\"FFD700\""
+        },
+        {
+          "iD_Name": "\"2-methylbutane\"",
+          "iD_CAS_Nr": "\"78-78-4\"",
+          "iD_EG_Nr": "\"NAV\"",
+          "iD_EG_Annex_Nr": "\"NAV\"",
+          "source": "\"PARIS_III\"",
+          "name": "\"2-methylbutane\"",
+          "casNumber": "\"78-78-4\"",
+          "features": [
+            {
+              "name": "Boiling_Point__(øC)",
+              "value": 27.8
+            },
+            {
+              "name": "Melting_Point__(øC)",
+              "value": -159.9
+            },
+            {
+              "name": "Vapour_Pressure_(25øC_mmHg)",
+              "value": 688.556625
+            },
+            {
+              "name": "Flash_Point__(øC)",
+              "value": -51.0
+            },
+            {
+              "name": "Autoignition_Temperature__(øC)",
+              "value": 420.0
+            },
+            {
+              "name": "Hansen_Delta_D_(MPa1_2)",
+              "value": 13.8
+            },
+            {
+              "name": "Hansen_Delta_P_(MPa1_2)",
+              "value": 0.0
+            },
+            {
+              "name": "Hansen_Delta_H_(MPa1_2)",
+              "value": 0.0
+            },
+            {
+              "name": "Solubility_Water_(20_øC_g_L)",
+              "value": 0.0485
+            },
+            {
+              "name": "Density_(25øC__kg_L)",
+              "value": 0.65
+            },
+            {
+              "name": "Viscosity_(25øC__mPa_s)",
+              "value": 0.21
+            },
+            {
+              "name": "Relative_Vapour_Density__(Air=1)",
+              "value": 2.48
+            },
+            {
+              "name": "Log_P_Octanol_Water_(20øC)",
+              "value": 3.3
+            },
+            {
+              "name": "Refractive_Index_(20øC)",
+              "value": 1.351
+            },
+            {
+              "name": "Surface_Tension_(25øC_mN_m)",
+              "value": 14.44
+            }
+          ],
+          "distanceToCluster": 693.38675233154743,
+          "ehs_S_SCORE": "\"7\"",
+          "ehs_H_SCORE": "\"3\"",
+          "ehs_E_SCORE": "\"7\"",
+          "ehs_COLOR_CODE": "\"FF6347\""
+        },
+        {
+          "iD_Name": "\"ethanol\"",
+          "iD_CAS_Nr": "\"64-17-5\"",
+          "iD_EG_Nr": "\"200-578-6\"",
+          "iD_EG_Annex_Nr": "\"NAV\"",
+          "source": "\"PARIS_III\"",
+          "name": "\"ethanol\"",
+          "casNumber": "\"64-17-5\"",
+          "features": [
+            {
+              "name": "Boiling_Point__(øC)",
+              "value": 78.2
+            },
+            {
+              "name": "Melting_Point__(øC)",
+              "value": -114.1
+            },
+            {
+              "name": "Vapour_Pressure_(25øC_mmHg)",
+              "value": 59.32987913
+            },
+            {
+              "name": "Flash_Point__(øC)",
+              "value": 8.89
+            },
+            {
+              "name": "Autoignition_Temperature__(øC)",
+              "value": 365.0
+            },
+            {
+              "name": "Hansen_Delta_D_(MPa1_2)",
+              "value": 15.8
+            },
+            {
+              "name": "Hansen_Delta_P_(MPa1_2)",
+              "value": 8.8
+            },
+            {
+              "name": "Hansen_Delta_H_(MPa1_2)",
+              "value": 19.4
+            },
+            {
+              "name": "Solubility_Water_(20_øC_g_L)",
+              "value": 1000.0
+            },
+            {
+              "name": "Density_(25øC__kg_L)",
+              "value": 0.78
+            },
+            {
+              "name": "Viscosity_(25øC__mPa_s)",
+              "value": 1.07
+            },
+            {
+              "name": "Relative_Vapour_Density__(Air=1)",
+              "value": 1.59
+            },
+            {
+              "name": "Log_P_Octanol_Water_(20øC)",
+              "value": -0.32
+            },
+            {
+              "name": "Refractive_Index_(20øC)",
+              "value": 1.3611
+            },
+            {
+              "name": "Surface_Tension_(25øC_mN_m)",
+              "value": 21.82
+            }
+          ],
+          "distanceToCluster": 763.15779329877,
+          "ehs_S_SCORE": "\"4\"",
+          "ehs_H_SCORE": "\"3\"",
+          "ehs_E_SCORE": "\"3\"",
+          "ehs_COLOR_CODE": "\"9ACD32\""
+        },
+        {
+          "iD_Name": "\"propan-2-ol\"",
+          "iD_CAS_Nr": "\"67-63-0\"",
+          "iD_EG_Nr": "\"NAV\"",
+          "iD_EG_Annex_Nr": "\"NAV\"",
+          "source": "\"PARIS_III\"",
+          "name": "\"propan-2-ol\"",
+          "casNumber": "\"67-63-0\"",
+          "features": [
+            {
+              "name": "Boiling_Point__(øC)",
+              "value": 82.3
+            },
+            {
+              "name": "Melting_Point__(øC)",
+              "value": -89.5
+            },
+            {
+              "name": "Vapour_Pressure_(25øC_mmHg)",
+              "value": 45.37873182
+            },
+            {
+              "name": "Flash_Point__(øC)",
+              "value": 11.67
+            },
+            {
+              "name": "Autoignition_Temperature__(øC)",
+              "value": 425.0
+            },
+            {
+              "name": "Hansen_Delta_D_(MPa1_2)",
+              "value": 15.8
+            },
+            {
+              "name": "Hansen_Delta_P_(MPa1_2)",
+              "value": 6.1
+            },
+            {
+              "name": "Hansen_Delta_H_(MPa1_2)",
+              "value": 16.4
+            },
+            {
+              "name": "Solubility_Water_(20_øC_g_L)",
+              "value": 1000.0
+            },
+            {
+              "name": "Density_(25øC__kg_L)",
+              "value": 0.79
+            },
+            {
+              "name": "Viscosity_(25øC__mPa_s)",
+              "value": 2.04
+            },
+            {
+              "name": "Relative_Vapour_Density__(Air=1)",
+              "value": 2.1
+            },
+            {
+              "name": "Log_P_Octanol_Water_(20øC)",
+              "value": 0.05
+            },
+            {
+              "name": "Refractive_Index_(20øC)",
+              "value": 1.3776
+            },
+            {
+              "name": "Surface_Tension_(25øC_mN_m)",
+              "value": 21.3
+            }
+          ],
+          "distanceToCluster": 762.11218492917385,
+          "ehs_S_SCORE": "\"4\"",
+          "ehs_H_SCORE": "\"3\"",
+          "ehs_E_SCORE": "\"3\"",
+          "ehs_COLOR_CODE": "\"9ACD32\""
+        },
+        {
+          "iD_Name": "\"propan-1-ol\"",
+          "iD_CAS_Nr": "\"71-23-8\"",
+          "iD_EG_Nr": "\"200-746-9\"",
+          "iD_EG_Annex_Nr": "\"NAV\"",
+          "source": "\"PARIS_III\"",
+          "name": "\"propan-1-ol\"",
+          "casNumber": "\"71-23-8\"",
+          "features": [
+            {
+              "name": "Boiling_Point__(øC)",
+              "value": 97.2
+            },
+            {
+              "name": "Melting_Point__(øC)",
+              "value": -126.1
+            },
+            {
+              "name": "Vapour_Pressure_(25øC_mmHg)",
+              "value": 21.00172712
+            },
+            {
+              "name": "Flash_Point__(øC)",
+              "value": 15.0
+            },
+            {
+              "name": "Autoignition_Temperature__(øC)",
+              "value": 405.0
+            },
+            {
+              "name": "Hansen_Delta_D_(MPa1_2)",
+              "value": 16.0
+            },
+            {
+              "name": "Hansen_Delta_P_(MPa1_2)",
+              "value": 6.8
+            },
+            {
+              "name": "Hansen_Delta_H_(MPa1_2)",
+              "value": 17.4
+            },
+            {
+              "name": "Solubility_Water_(20_øC_g_L)",
+              "value": 1000.0
+            },
+            {
+              "name": "Density_(25øC__kg_L)",
+              "value": 0.8
+            },
+            {
+              "name": "Viscosity_(25øC__mPa_s)",
+              "value": 1.96
+            },
+            {
+              "name": "Relative_Vapour_Density__(Air=1)",
+              "value": 2.07
+            },
+            {
+              "name": "Log_P_Octanol_Water_(20øC)",
+              "value": 0.34
+            },
+            {
+              "name": "Refractive_Index_(20øC)",
+              "value": 1.385
+            },
+            {
+              "name": "Surface_Tension_(25øC_mN_m)",
+              "value": 23.32
+            }
+          ],
+          "distanceToCluster": 763.36039223248133,
+          "ehs_S_SCORE": "\"5\"",
+          "ehs_H_SCORE": "\"4\"",
+          "ehs_E_SCORE": "\"3\"",
+          "ehs_COLOR_CODE": "\"FFD700\""
+        },
+        {
+          "iD_Name": "\"methanol\"",
+          "iD_CAS_Nr": "\"67-56-1\"",
+          "iD_EG_Nr": "\"200-659-6\"",
+          "iD_EG_Annex_Nr": "\"NAV\"",
+          "source": "\"Mixed\"",
+          "name": "\"methanol\"",
+          "casNumber": "\"67-56-1\"",
+          "features": [
+            {
+              "name": "Boiling_Point__(øC)",
+              "value": 64.7
+            },
+            {
+              "name": "Melting_Point__(øC)",
+              "value": -98.0
+            },
+            {
+              "name": "Vapour_Pressure_(25øC_mmHg)",
+              "value": 126.7604244
+            },
+            {
+              "name": "Flash_Point__(øC)",
+              "value": 12.0
+            },
+            {
+              "name": "Autoignition_Temperature__(øC)",
+              "value": 455.0
+            },
+            {
+              "name": "Hansen_Delta_D_(MPa1_2)",
+              "value": 14.7
+            },
+            {
+              "name": "Hansen_Delta_P_(MPa1_2)",
+              "value": 12.3
+            },
+            {
+              "name": "Hansen_Delta_H_(MPa1_2)",
+              "value": 22.3
+            },
+            {
+              "name": "Solubility_Water_(20_øC_g_L)",
+              "value": 1000.0
+            },
+            {
+              "name": "Density_(25øC__kg_L)",
+              "value": 0.75
+            },
+            {
+              "name": "Viscosity_(25øC__mPa_s)",
+              "value": 0.544
+            },
+            {
+              "name": "Relative_Vapour_Density__(Air=1)",
+              "value": 1.11
+            },
+            {
+              "name": "Log_P_Octanol_Water_(20øC)",
+              "value": -0.74
+            },
+            {
+              "name": "Refractive_Index_(20øC)",
+              "value": 1.3288
+            },
+            {
+              "name": "Surface_Tension_(25øC_mN_m)",
+              "value": 22.07
+            }
+          ],
+          "distanceToCluster": 768.57764755825679,
+          "ehs_S_SCORE": "\"4\"",
+          "ehs_H_SCORE": "\"7\"",
+          "ehs_E_SCORE": "\"5\"",
+          "ehs_COLOR_CODE": "\"9ACD32\""
+        },
+        {
+          "iD_Name": "\"2-butanol\"",
+          "iD_CAS_Nr": "\"78-92-2\"",
+          "iD_EG_Nr": "\"NAV\"",
+          "iD_EG_Annex_Nr": "\"NAV\"",
+          "source": "\"Mixed\"",
+          "name": "\"2-butanol\"",
+          "casNumber": "\"78-92-2\"",
+          "features": [
+            {
+              "name": "Boiling_Point__(øC)",
+              "value": 99.5
+            },
+            {
+              "name": "Melting_Point__(øC)",
+              "value": -114.7
+            },
+            {
+              "name": "Vapour_Pressure_(25øC_mmHg)",
+              "value": 18.30150507
+            },
+            {
+              "name": "Flash_Point__(øC)",
+              "value": 26.0
+            },
+            {
+              "name": "Autoignition_Temperature__(øC)",
+              "value": 390.0
+            },
+            {
+              "name": "Hansen_Delta_D_(MPa1_2)",
+              "value": 15.8
+            },
+            {
+              "name": "Hansen_Delta_P_(MPa1_2)",
+              "value": 5.7
+            },
+            {
+              "name": "Hansen_Delta_H_(MPa1_2)",
+              "value": 14.5
+            },
+            {
+              "name": "Solubility_Water_(20_øC_g_L)",
+              "value": 125.0
+            },
+            {
+              "name": "Density_(25øC__kg_L)",
+              "value": 0.8
+            },
+            {
+              "name": "Viscosity_(25øC__mPa_s)",
+              "value": 3.65
+            },
+            {
+              "name": "Relative_Vapour_Density__(Air=1)",
+              "value": 2.6
+            },
+            {
+              "name": "Log_P_Octanol_Water_(20øC)",
+              "value": 0.6
+            },
+            {
+              "name": "Refractive_Index_(20øC)",
+              "value": 1.395
+            },
+            {
+              "name": "Surface_Tension_(25øC_mN_m)",
+              "value": 23.73
+            }
+          ],
+          "distanceToCluster": 130.69172193519964,
+          "ehs_S_SCORE": "\"3\"",
+          "ehs_H_SCORE": "\"2\"",
+          "ehs_E_SCORE": "\"3\"",
+          "ehs_COLOR_CODE": "\"9ACD32\""
+        },
+        {
+          "iD_Name": "\"3-methylbutanol\"",
+          "iD_CAS_Nr": "\"123-51-3\"",
+          "iD_EG_Nr": "\"204-633-5\"",
+          "iD_EG_Annex_Nr": "\"NAV\"",
+          "source": "\"Mixed\"",
+          "name": "\"3-methylbutanol\"",
+          "casNumber": "\"123-51-3\"",
+          "features": [
+            {
+              "name": "Boiling_Point__(øC)",
+              "value": 131.1
+            },
+            {
+              "name": "Melting_Point__(øC)",
+              "value": -117.2
+            },
+            {
+              "name": "Vapour_Pressure_(25øC_mmHg)",
+              "value": 2.370194918
+            },
+            {
+              "name": "Flash_Point__(øC)",
+              "value": 45.6
+            },
+            {
+              "name": "Autoignition_Temperature__(øC)",
+              "value": 365.0
+            },
+            {
+              "name": "Hansen_Delta_D_(MPa1_2)",
+              "value": 15.8
+            },
+            {
+              "name": "Hansen_Delta_P_(MPa1_2)",
+              "value": 5.2
+            },
+            {
+              "name": "Hansen_Delta_H_(MPa1_2)",
+              "value": 13.3
+            },
+            {
+              "name": "Solubility_Water_(20_øC_g_L)",
+              "value": 25.0
+            },
+            {
+              "name": "Density_(25øC__kg_L)",
+              "value": 0.81
+            },
+            {
+              "name": "Viscosity_(25øC__mPa_s)",
+              "value": 3.93
+            },
+            {
+              "name": "Relative_Vapour_Density__(Air=1)",
+              "value": 3.04
+            },
+            {
+              "name": "Log_P_Octanol_Water_(20øC)",
+              "value": 1.28
+            },
+            {
+              "name": "Refractive_Index_(20øC)",
+              "value": 1.405
+            },
+            {
+              "name": "Surface_Tension_(25øC_mN_m)",
+              "value": 23.71
+            }
+          ],
+          "distanceToCluster": 229.21045989601245,
+          "ehs_S_SCORE": "\"3\"",
+          "ehs_H_SCORE": "\"2\"",
+          "ehs_E_SCORE": "\"3\"",
+          "ehs_COLOR_CODE": "\"9ACD32\""
+        },
+        {
+          "iD_Name": "\"2-methylbutanol\"",
+          "iD_CAS_Nr": "\"137-32-6\"",
+          "iD_EG_Nr": "\"205-289-9\"",
+          "iD_EG_Annex_Nr": "\"NAV\"",
+          "source": "\"Mixed\"",
+          "name": "\"2-methylbutanol\"",
+          "casNumber": "\"137-32-6\"",
+          "features": [
+            {
+              "name": "Boiling_Point__(øC)",
+              "value": 128.0
+            },
+            {
+              "name": "Melting_Point__(øC)",
+              "value": -94.52
+            },
+            {
+              "name": "Vapour_Pressure_(25øC_mmHg)",
+              "value": 3.120256601
+            },
+            {
+              "name": "Flash_Point__(øC)",
+              "value": 43.0
+            },
+            {
+              "name": "Autoignition_Temperature__(øC)",
+              "value": 340.0
+            },
+            {
+              "name": "Hansen_Delta_D_(MPa1_2)",
+              "value": 16.0
+            },
+            {
+              "name": "Hansen_Delta_P_(MPa1_2)",
+              "value": 5.1
+            },
+            {
+              "name": "Hansen_Delta_H_(MPa1_2)",
+              "value": 14.3
+            },
+            {
+              "name": "Solubility_Water_(20_øC_g_L)",
+              "value": 30.0
+            },
+            {
+              "name": "Density_(25øC__kg_L)",
+              "value": 0.82
+            },
+            {
+              "name": "Viscosity_(25øC__mPa_s)",
+              "value": 4.3
+            },
+            {
+              "name": "Relative_Vapour_Density__(Air=1)",
+              "value": 3.0
+            },
+            {
+              "name": "Log_P_Octanol_Water_(20øC)",
+              "value": 1.29
+            },
+            {
+              "name": "Refractive_Index_(20øC)",
+              "value": 1.41
+            },
+            {
+              "name": "Surface_Tension_(25øC_mN_m)",
+              "value": 24.6
+            }
+          ],
+          "distanceToCluster": 225.02557235958182,
+          "ehs_S_SCORE": "\"3\"",
+          "ehs_H_SCORE": "\"2\"",
+          "ehs_E_SCORE": "\"3\"",
+          "ehs_COLOR_CODE": "\"9ACD32\""
+        },
+        {
+          "iD_Name": "\"1-butanol\"",
+          "iD_CAS_Nr": "\"71-36-3\"",
+          "iD_EG_Nr": "\"200-751-6\"",
+          "iD_EG_Annex_Nr": "\"603-004-00-6\"",
+          "source": "\"Mixed\"",
+          "name": "\"1-butanol\"",
+          "casNumber": "\"71-36-3\"",
+          "features": [
+            {
+              "name": "Boiling_Point__(øC)",
+              "value": 117.6
+            },
+            {
+              "name": "Melting_Point__(øC)",
+              "value": -89.0
+            },
+            {
+              "name": "Vapour_Pressure_(25øC_mmHg)",
+              "value": 6.698050829
+            },
+            {
+              "name": "Flash_Point__(øC)",
+              "value": 35.0
+            },
+            {
+              "name": "Autoignition_Temperature__(øC)",
+              "value": 340.0
+            },
+            {
+              "name": "Hansen_Delta_D_(MPa1_2)",
+              "value": 16.0
+            },
+            {
+              "name": "Hansen_Delta_P_(MPa1_2)",
+              "value": 5.7
+            },
+            {
+              "name": "Hansen_Delta_H_(MPa1_2)",
+              "value": 15.8
+            },
+            {
+              "name": "Solubility_Water_(20_øC_g_L)",
+              "value": 80.0
+            },
+            {
+              "name": "Density_(25øC__kg_L)",
+              "value": 0.81
+            },
+            {
+              "name": "Viscosity_(25øC__mPa_s)",
+              "value": 2.544
+            },
+            {
+              "name": "Relative_Vapour_Density__(Air=1)",
+              "value": 2.6
+            },
+            {
+              "name": "Log_P_Octanol_Water_(20øC)",
+              "value": 0.785
+            },
+            {
+              "name": "Refractive_Index_(20øC)",
+              "value": 1.3988
+            },
+            {
+              "name": "Surface_Tension_(25øC_mN_m)",
+              "value": 24.67
+            }
+          ],
+          "distanceToCluster": 176.96042664734759,
+          "ehs_S_SCORE": "\"3\"",
+          "ehs_H_SCORE": "\"4\"",
+          "ehs_E_SCORE": "\"3\"",
+          "ehs_COLOR_CODE": "\"9ACD32\""
+        },
+        {
+          "iD_Name": "\"isobutanol\"",
+          "iD_CAS_Nr": "\"78-83-1\"",
+          "iD_EG_Nr": "\"201-148-0\"",
+          "iD_EG_Annex_Nr": "\"NAV\"",
+          "source": "\"Mixed\"",
+          "name": "\"isobutanol\"",
+          "casNumber": "\"78-83-1\"",
+          "features": [
+            {
+              "name": "Boiling_Point__(øC)",
+              "value": 107.8
+            },
+            {
+              "name": "Melting_Point__(øC)",
+              "value": -108.0
+            },
+            {
+              "name": "Vapour_Pressure_(25øC_mmHg)",
+              "value": 10.50086356
+            },
+            {
+              "name": "Flash_Point__(øC)",
+              "value": 27.78
+            },
+            {
+              "name": "Autoignition_Temperature__(øC)",
+              "value": 430.0
+            },
+            {
+              "name": "Hansen_Delta_D_(MPa1_2)",
+              "value": 15.1
+            },
+            {
+              "name": "Hansen_Delta_P_(MPa1_2)",
+              "value": 5.7
+            },
+            {
+              "name": "Hansen_Delta_H_(MPa1_2)",
+              "value": 15.9
+            },
+            {
+              "name": "Solubility_Water_(20_øC_g_L)",
+              "value": 95.0
+            },
+            {
+              "name": "Density_(25øC__kg_L)",
+              "value": 0.8
+            },
+            {
+              "name": "Viscosity_(25øC__mPa_s)",
+              "value": 3.37
+            },
+            {
+              "name": "Relative_Vapour_Density__(Air=1)",
+              "value": 2.6
+            },
+            {
+              "name": "Log_P_Octanol_Water_(20øC)",
+              "value": 0.79
+            },
+            {
+              "name": "Refractive_Index_(20øC)",
+              "value": 1.3957
+            },
+            {
+              "name": "Surface_Tension_(25øC_mN_m)",
+              "value": 22.54
+            }
+          ],
+          "distanceToCluster": 161.70635684582143,
+          "ehs_S_SCORE": "\"3\"",
+          "ehs_H_SCORE": "\"4\"",
+          "ehs_E_SCORE": "\"3\"",
+          "ehs_COLOR_CODE": "\"9ACD32\""
+        },
+        {
+          "iD_Name": "\"propylbenzene\"",
+          "iD_CAS_Nr": "\"103-65-1\"",
+          "iD_EG_Nr": "\"203-132-9\"",
+          "iD_EG_Annex_Nr": "\"NAV\"",
+          "source": "\"PARIS_III\"",
+          "name": "\"propylbenzene\"",
+          "casNumber": "\"103-65-1\"",
+          "features": [
+            {
+              "name": "Boiling_Point__(øC)",
+              "value": 159.2
+            },
+            {
+              "name": "Melting_Point__(øC)",
+              "value": -99.5
+            },
+            {
+              "name": "Vapour_Pressure_(25øC_mmHg)",
+              "value": 3.420281274
+            },
+            {
+              "name": "Flash_Point__(øC)",
+              "value": 42.1
+            },
+            {
+              "name": "Autoignition_Temperature__(øC)",
+              "value": 450.0
+            },
+            {
+              "name": "Hansen_Delta_D_(MPa1_2)",
+              "value": 17.5
+            },
+            {
+              "name": "Hansen_Delta_P_(MPa1_2)",
+              "value": 2.8
+            },
+            {
+              "name": "Hansen_Delta_H_(MPa1_2)",
+              "value": 3.4
+            },
+            {
+              "name": "Solubility_Water_(20_øC_g_L)",
+              "value": 0.0234
+            },
+            {
+              "name": "Density_(25øC__kg_L)",
+              "value": 0.86
+            },
+            {
+              "name": "Viscosity_(25øC__mPa_s)",
+              "value": 0.84
+            },
+            {
+              "name": "Relative_Vapour_Density__(Air=1)",
+              "value": 4.14
+            },
+            {
+              "name": "Log_P_Octanol_Water_(20øC)",
+              "value": 3.2
+            },
+            {
+              "name": "Refractive_Index_(20øC)",
+              "value": 1.4912
+            },
+            {
+              "name": "Surface_Tension_(25øC_mN_m)",
+              "value": 28.44
+            }
+          ],
+          "distanceToCluster": 257.43496592382456,
+          "ehs_S_SCORE": "\"3\"",
+          "ehs_H_SCORE": "\"2\"",
+          "ehs_E_SCORE": "\"7\"",
+          "ehs_COLOR_CODE": "\"FFD700\""
+        },
+        {
+          "iD_Name": "\"ethylbenzene\"",
+          "iD_CAS_Nr": "\"100-41-4\"",
+          "iD_EG_Nr": "\"202-849-4\"",
+          "iD_EG_Annex_Nr": "\"NAV\"",
+          "source": "\"PARIS_III\"",
+          "name": "\"ethylbenzene\"",
+          "casNumber": "\"100-41-4\"",
+          "features": [
+            {
+              "name": "Boiling_Point__(øC)",
+              "value": 136.1
+            },
+            {
+              "name": "Melting_Point__(øC)",
+              "value": -94.9
+            },
+            {
+              "name": "Vapour_Pressure_(25øC_mmHg)",
+              "value": 9.600789542
+            },
+            {
+              "name": "Flash_Point__(øC)",
+              "value": 25.94
+            },
+            {
+              "name": "Autoignition_Temperature__(øC)",
+              "value": 432.0
+            },
+            {
+              "name": "Hansen_Delta_D_(MPa1_2)",
+              "value": 17.8
+            },
+            {
+              "name": "Hansen_Delta_P_(MPa1_2)",
+              "value": 0.6
+            },
+            {
+              "name": "Hansen_Delta_H_(MPa1_2)",
+              "value": 1.4
+            },
+            {
+              "name": "Solubility_Water_(20_øC_g_L)",
+              "value": 0.2
+            },
+            {
+              "name": "Density_(25øC__kg_L)",
+              "value": 0.86
+            },
+            {
+              "name": "Viscosity_(25øC__mPa_s)",
+              "value": 0.63
+            },
+            {
+              "name": "Relative_Vapour_Density__(Air=1)",
+              "value": 3.7
+            },
+            {
+              "name": "Log_P_Octanol_Water_(20øC)",
+              "value": 3.15
+            },
+            {
+              "name": "Refractive_Index_(20øC)",
+              "value": 1.493
+            },
+            {
+              "name": "Surface_Tension_(25øC_mN_m)",
+              "value": 28.74
+            }
+          ],
+          "distanceToCluster": 249.28818947866535,
+          "ehs_S_SCORE": "\"5\"",
+          "ehs_H_SCORE": "\"2\"",
+          "ehs_E_SCORE": "\"5\"",
+          "ehs_COLOR_CODE": "\"FFD700\""
+        },
+        {
+          "iD_Name": "\"toluene\"",
+          "iD_CAS_Nr": "\"108-88-3\"",
+          "iD_EG_Nr": "\"203-625-9\"",
+          "iD_EG_Annex_Nr": "\"NAV\"",
+          "source": "\"PARIS_III\"",
+          "name": "\"toluene\"",
+          "casNumber": "\"108-88-3\"",
+          "features": [
+            {
+              "name": "Boiling_Point__(øC)",
+              "value": 110.6
+            },
+            {
+              "name": "Melting_Point__(øC)",
+              "value": -94.9
+            },
+            {
+              "name": "Vapour_Pressure_(25øC_mmHg)",
+              "value": 28.35233162
+            },
+            {
+              "name": "Flash_Point__(øC)",
+              "value": 10.0
+            },
+            {
+              "name": "Autoignition_Temperature__(øC)",
+              "value": 535.0
+            },
+            {
+              "name": "Hansen_Delta_D_(MPa1_2)",
+              "value": 18.0
+            },
+            {
+              "name": "Hansen_Delta_P_(MPa1_2)",
+              "value": 1.4
+            },
+            {
+              "name": "Hansen_Delta_H_(MPa1_2)",
+              "value": 2.0
+            },
+            {
+              "name": "Solubility_Water_(20_øC_g_L)",
+              "value": 0.5
+            },
+            {
+              "name": "Density_(25øC__kg_L)",
+              "value": 0.87
+            },
+            {
+              "name": "Viscosity_(25øC__mPa_s)",
+              "value": 0.55
+            },
+            {
+              "name": "Relative_Vapour_Density__(Air=1)",
+              "value": 3.1
+            },
+            {
+              "name": "Log_P_Octanol_Water_(20øC)",
+              "value": 2.65
+            },
+            {
+              "name": "Refractive_Index_(20øC)",
+              "value": 1.4961
+            },
+            {
+              "name": "Surface_Tension_(25øC_mN_m)",
+              "value": 27.93
+            }
+          ],
+          "distanceToCluster": 281.87321695260488,
+          "ehs_S_SCORE": "\"5\"",
+          "ehs_H_SCORE": "\"6\"",
+          "ehs_E_SCORE": "\"3\"",
+          "ehs_COLOR_CODE": "\"FFD700\""
+        },
+        {
+          "iD_Name": "\"o-xylene\"",
+          "iD_CAS_Nr": "\"95-47-6\"",
+          "iD_EG_Nr": "\"202-422-2\"",
+          "iD_EG_Annex_Nr": "\"NAV\"",
+          "source": "\"Mixed\"",
+          "name": "\"o-xylene\"",
+          "casNumber": "\"95-47-6\"",
+          "features": [
+            {
+              "name": "Boiling_Point__(øC)",
+              "value": 144.5
+            },
+            {
+              "name": "Melting_Point__(øC)",
+              "value": -25.2
+            },
+            {
+              "name": "Vapour_Pressure_(25øC_mmHg)",
+              "value": 6.608043427
+            },
+            {
+              "name": "Flash_Point__(øC)",
+              "value": 28.88
+            },
+            {
+              "name": "Autoignition_Temperature__(øC)",
+              "value": 465.0
+            },
+            {
+              "name": "Hansen_Delta_D_(MPa1_2)",
+              "value": 17.8
+            },
+            {
+              "name": "Hansen_Delta_P_(MPa1_2)",
+              "value": 1.0
+            },
+            {
+              "name": "Hansen_Delta_H_(MPa1_2)",
+              "value": 3.1
+            },
+            {
+              "name": "Solubility_Water_(20_øC_g_L)",
+              "value": 0.2
+            },
+            {
+              "name": "Density_(25øC__kg_L)",
+              "value": 0.87
+            },
+            {
+              "name": "Viscosity_(25øC__mPa_s)",
+              "value": 0.76
+            },
+            {
+              "name": "Relative_Vapour_Density__(Air=1)",
+              "value": 3.7
+            },
+            {
+              "name": "Log_P_Octanol_Water_(20øC)",
+              "value": 3.12
+            },
+            {
+              "name": "Refractive_Index_(20øC)",
+              "value": 1.503
+            },
+            {
+              "name": "Surface_Tension_(25øC_mN_m)",
+              "value": 29.76
+            }
+          ],
+          "distanceToCluster": 260.81190614363442,
+          "ehs_S_SCORE": "\"4\"",
+          "ehs_H_SCORE": "\"2\"",
+          "ehs_E_SCORE": "\"5\"",
+          "ehs_COLOR_CODE": "\"FFD700\""
+        },
+        {
+          "iD_Name": "\"xylene\"",
+          "iD_CAS_Nr": "\"1330-20-7\"",
+          "iD_EG_Nr": "\"NAV\"",
+          "iD_EG_Annex_Nr": "\"NAV\"",
+          "source": "\"Mixed\"",
+          "name": "\"xylene\"",
+          "casNumber": "\"1330-20-7\"",
+          "features": [
+            {
+              "name": "Boiling_Point__(øC)",
+              "value": 137.0
+            },
+            {
+              "name": "Melting_Point__(øC)",
+              "value": -25.0
+            },
+            {
+              "name": "Vapour_Pressure_(25øC_mmHg)",
+              "value": 7.99
+            },
+            {
+              "name": "Flash_Point__(øC)",
+              "value": 25.0
+            },
+            {
+              "name": "Autoignition_Temperature__(øC)",
+              "value": 463.0
+            },
+            {
+              "name": "Hansen_Delta_D_(MPa1_2)",
+              "value": 17.6
+            },
+            {
+              "name": "Hansen_Delta_P_(MPa1_2)",
+              "value": 1.0
+            },
+            {
+              "name": "Hansen_Delta_H_(MPa1_2)",
+              "value": 3.1
+            },
+            {
+              "name": "Solubility_Water_(20_øC_g_L)",
+              "value": 0.19
+            },
+            {
+              "name": "Density_(25øC__kg_L)",
+              "value": 0.86
+            },
+            {
+              "name": "Viscosity_(25øC__mPa_s)",
+              "value": 0.76
+            },
+            {
+              "name": "Relative_Vapour_Density__(Air=1)",
+              "value": 3.7
+            },
+            {
+              "name": "Log_P_Octanol_Water_(20øC)",
+              "value": 3.16
+            },
+            {
+              "name": "Refractive_Index_(20øC)",
+              "value": 1.497
+            },
+            {
+              "name": "Surface_Tension_(25øC_mN_m)",
+              "value": 28.7
+            }
+          ],
+          "distanceToCluster": 259.44843666324141,
+          "ehs_S_SCORE": "\"4\"",
+          "ehs_H_SCORE": "\"2\"",
+          "ehs_E_SCORE": "\"5\"",
+          "ehs_COLOR_CODE": "\"FFD700\""
+        },
+        {
+          "iD_Name": "\"Mesitylene\"",
+          "iD_CAS_Nr": "\"108-67-8\"",
+          "iD_EG_Nr": "\"NAV\"",
+          "iD_EG_Annex_Nr": "\"NAV\"",
+          "source": "\"Mixed\"",
+          "name": "\"Mesitylene\"",
+          "casNumber": "\"108-67-8\"",
+          "features": [
+            {
+              "name": "Boiling_Point__(øC)",
+              "value": 164.74
+            },
+            {
+              "name": "Melting_Point__(øC)",
+              "value": -44.72
+            },
+            {
+              "name": "Vapour_Pressure_(25øC_mmHg)",
+              "value": 2.4
+            },
+            {
+              "name": "Flash_Point__(øC)",
+              "value": 50.0
+            },
+            {
+              "name": "Autoignition_Temperature__(øC)",
+              "value": 559.0
+            },
+            {
+              "name": "Hansen_Delta_D_(MPa1_2)",
+              "value": 18.0
+            },
+            {
+              "name": "Hansen_Delta_P_(MPa1_2)",
+              "value": 6.0
+            },
+            {
+              "name": "Hansen_Delta_H_(MPa1_2)",
+              "value": 0.6
+            },
+            {
+              "name": "Solubility_Water_(20_øC_g_L)",
+              "value": 0.0482
+            },
+            {
+              "name": "Density_(25øC__kg_L)",
+              "value": 0.86
+            },
+            {
+              "name": "Viscosity_(25øC__mPa_s)",
+              "value": 0.727
+            },
+            {
+              "name": "Relative_Vapour_Density__(Air=1)",
+              "value": 4.1
+            },
+            {
+              "name": "Log_P_Octanol_Water_(20øC)",
+              "value": 3.42
+            },
+            {
+              "name": "Refractive_Index_(20øC)",
+              "value": 1.49541
+            },
+            {
+              "name": "Surface_Tension_(25øC_mN_m)",
+              "value": 27.55
+            }
+          ],
+          "distanceToCluster": 302.42804992686786,
+          "ehs_S_SCORE": "\"3\"",
+          "ehs_H_SCORE": "\"2\"",
+          "ehs_E_SCORE": "\"7\"",
+          "ehs_COLOR_CODE": "\"FFD700\""
+        },
+        {
+          "iD_Name": "\"p-cymene\"",
+          "iD_CAS_Nr": "\"99-87-6\"",
+          "iD_EG_Nr": "\"NAV\"",
+          "iD_EG_Annex_Nr": "\"NAV\"",
+          "source": "\"Mixed\"",
+          "name": "\"p-cymene\"",
+          "casNumber": "\"99-87-6\"",
+          "features": [
+            {
+              "name": "Boiling_Point__(øC)",
+              "value": 177.1
+            },
+            {
+              "name": "Melting_Point__(øC)",
+              "value": -68.9
+            },
+            {
+              "name": "Vapour_Pressure_(25øC_mmHg)",
+              "value": 1.462620282
+            },
+            {
+              "name": "Flash_Point__(øC)",
+              "value": 47.2
+            },
+            {
+              "name": "Autoignition_Temperature__(øC)",
+              "value": 435.0
+            },
+            {
+              "name": "Hansen_Delta_D_(MPa1_2)",
+              "value": 18.0
+            },
+            {
+              "name": "Hansen_Delta_P_(MPa1_2)",
+              "value": 3.5
+            },
+            {
+              "name": "Hansen_Delta_H_(MPa1_2)",
+              "value": 2.7
+            },
+            {
+              "name": "Solubility_Water_(20_øC_g_L)",
+              "value": 0.02
+            },
+            {
+              "name": "Density_(25øC__kg_L)",
+              "value": 0.86
+            },
+            {
+              "name": "Viscosity_(25øC__mPa_s)",
+              "value": 0.76
+            },
+            {
+              "name": "Relative_Vapour_Density__(Air=1)",
+              "value": 4.62
+            },
+            {
+              "name": "Log_P_Octanol_Water_(20øC)",
+              "value": 4.1
+            },
+            {
+              "name": "Refractive_Index_(20øC)",
+              "value": 1.489
+            },
+            {
+              "name": "Surface_Tension_(25øC_mN_m)",
+              "value": 27.77
+            }
+          ],
+          "distanceToCluster": 257.09490935665195,
+          "ehs_S_SCORE": "\"4\"",
+          "ehs_H_SCORE": "\"5\"",
+          "ehs_E_SCORE": "\"5\"",
+          "ehs_COLOR_CODE": "\"FFD700\""
+        },
+        {
+          "iD_Name": "\"p-xylene\"",
+          "iD_CAS_Nr": "\"106-42-3\"",
+          "iD_EG_Nr": "\"NAV\"",
+          "iD_EG_Annex_Nr": "\"NAV\"",
+          "source": "\"Mixed\"",
+          "name": "\"p-xylene\"",
+          "casNumber": "\"106-42-3\"",
+          "features": [
+            {
+              "name": "Boiling_Point__(øC)",
+              "value": 138.0
+            },
+            {
+              "name": "Melting_Point__(øC)",
+              "value": 12.0
+            },
+            {
+              "name": "Vapour_Pressure_(25øC_mmHg)",
+              "value": 8.84
+            },
+            {
+              "name": "Flash_Point__(øC)",
+              "value": 25.0
+            },
+            {
+              "name": "Autoignition_Temperature__(øC)",
+              "value": 529.0
+            },
+            {
+              "name": "Hansen_Delta_D_(MPa1_2)",
+              "value": 17.6
+            },
+            {
+              "name": "Hansen_Delta_P_(MPa1_2)",
+              "value": 1.0
+            },
+            {
+              "name": "Hansen_Delta_H_(MPa1_2)",
+              "value": 3.1
+            },
+            {
+              "name": "Solubility_Water_(20_øC_g_L)",
+              "value": 0.16
+            },
+            {
+              "name": "Density_(25øC__kg_L)",
+              "value": 0.86
+            },
+            {
+              "name": "Viscosity_(25øC__mPa_s)",
+              "value": 0.603
+            },
+            {
+              "name": "Relative_Vapour_Density__(Air=1)",
+              "value": 3.7
+            },
+            {
+              "name": "Log_P_Octanol_Water_(20øC)",
+              "value": 3.15
+            },
+            {
+              "name": "Refractive_Index_(20øC)",
+              "value": 1.496
+            },
+            {
+              "name": "Surface_Tension_(25øC_mN_m)",
+              "value": 28.0
+            }
+          ],
+          "distanceToCluster": 292.79324098243796,
+          "ehs_S_SCORE": "\"4\"",
+          "ehs_H_SCORE": "\"2\"",
+          "ehs_E_SCORE": "\"5\"",
+          "ehs_COLOR_CODE": "\"FFD700\""
+        },
+        {
+          "iD_Name": "\"Dimethyl_adipate\"",
+          "iD_CAS_Nr": "\"627-93-0\"",
+          "iD_EG_Nr": "\"NAV\"",
+          "iD_EG_Annex_Nr": "\"NAV\"",
+          "source": "\"Mixed\"",
+          "name": "\"Dimethyl_adipate\"",
+          "casNumber": "\"627-93-0\"",
+          "features": [
+            {
+              "name": "Boiling_Point__(øC)",
+              "value": 229.71
+            },
+            {
+              "name": "Melting_Point__(øC)",
+              "value": 10.3
+            },
+            {
+              "name": "Vapour_Pressure_(25øC_mmHg)",
+              "value": 0.060379965
+            },
+            {
+              "name": "Flash_Point__(øC)",
+              "value": 107.2
+            },
+            {
+              "name": "Autoignition_Temperature__(øC)",
+              "value": 360.0
+            },
+            {
+              "name": "Hansen_Delta_D_(MPa1_2)",
+              "value": 16.3
+            },
+            {
+              "name": "Hansen_Delta_P_(MPa1_2)",
+              "value": 6.8
+            },
+            {
+              "name": "Hansen_Delta_H_(MPa1_2)",
+              "value": 8.5
+            },
+            {
+              "name": "Solubility_Water_(20_øC_g_L)",
+              "value": 1.0
+            },
+            {
+              "name": "Density_(25øC__kg_L)",
+              "value": 1.06
+            },
+            {
+              "name": "Viscosity_(25øC__mPa_s)",
+              "value": 1.17
+            },
+            {
+              "name": "Relative_Vapour_Density__(Air=1)",
+              "value": 6.1
+            },
+            {
+              "name": "Log_P_Octanol_Water_(20øC)",
+              "value": 1.03
+            },
+            {
+              "name": "Refractive_Index_(20øC)",
+              "value": 1.428
+            },
+            {
+              "name": "Surface_Tension_(25øC_mN_m)",
+              "value": 35.42
+            }
+          ],
+          "distanceToCluster": 294.11580645705703,
+          "ehs_S_SCORE": "\"1\"",
+          "ehs_H_SCORE": "\"0\"",
+          "ehs_E_SCORE": "\"7\"",
+          "ehs_COLOR_CODE": "\"FFD700\""
+        },
+        {
+          "iD_Name": "\"dimethylsuccinate\"",
+          "iD_CAS_Nr": "\"106-65-0\"",
+          "iD_EG_Nr": "\"203-419-9\"",
+          "iD_EG_Annex_Nr": "\"NAV\"",
+          "source": "\"Mixed\"",
+          "name": "\"dimethylsuccinate\"",
+          "casNumber": "\"106-65-0\"",
+          "features": [
+            {
+              "name": "Boiling_Point__(øC)",
+              "value": 196.4
+            },
+            {
+              "name": "Melting_Point__(øC)",
+              "value": 19.0
+            },
+            {
+              "name": "Vapour_Pressure_(25øC_mmHg)",
+              "value": 0.410283741
+            },
+            {
+              "name": "Flash_Point__(øC)",
+              "value": 88.4
+            },
+            {
+              "name": "Autoignition_Temperature__(øC)",
+              "value": 365.0
+            },
+            {
+              "name": "Hansen_Delta_D_(MPa1_2)",
+              "value": 16.1
+            },
+            {
+              "name": "Hansen_Delta_P_(MPa1_2)",
+              "value": 7.7
+            },
+            {
+              "name": "Hansen_Delta_H_(MPa1_2)",
+              "value": 8.8
+            },
+            {
+              "name": "Solubility_Water_(20_øC_g_L)",
+              "value": 8.5
+            },
+            {
+              "name": "Density_(25øC__kg_L)",
+              "value": 1.09
+            },
+            {
+              "name": "Viscosity_(25øC__mPa_s)",
+              "value": 1.51
+            },
+            {
+              "name": "Relative_Vapour_Density__(Air=1)",
+              "value": 5.04
+            },
+            {
+              "name": "Log_P_Octanol_Water_(20øC)",
+              "value": 0.19
+            },
+            {
+              "name": "Refractive_Index_(20øC)",
+              "value": 1.4197
+            },
+            {
+              "name": "Surface_Tension_(25øC_mN_m)",
+              "value": 36.02
+            }
+          ],
+          "distanceToCluster": 274.43146391510948,
+          "ehs_S_SCORE": "\"1\"",
+          "ehs_H_SCORE": "\"2\"",
+          "ehs_E_SCORE": "\"5\"",
+          "ehs_COLOR_CODE": "\"9ACD32\""
+        },
+        {
+          "iD_Name": "\"diethylsuccinate\"",
+          "iD_CAS_Nr": "\"123-25-1\"",
+          "iD_EG_Nr": "\"204-612-0\"",
+          "iD_EG_Annex_Nr": "\"NAV\"",
+          "source": "\"Mixed\"",
+          "name": "\"diethylsuccinate\"",
+          "casNumber": "\"123-25-1\"",
+          "features": [
+            {
+              "name": "Boiling_Point__(øC)",
+              "value": 217.7
+            },
+            {
+              "name": "Melting_Point__(øC)",
+              "value": -21.0
+            },
+            {
+              "name": "Vapour_Pressure_(25øC_mmHg)",
+              "value": 0.043878608
+            },
+            {
+              "name": "Flash_Point__(øC)",
+              "value": 99.5
+            },
+            {
+              "name": "Autoignition_Temperature__(øC)",
+              "value": 365.0
+            },
+            {
+              "name": "Hansen_Delta_D_(MPa1_2)",
+              "value": 16.1
+            },
+            {
+              "name": "Hansen_Delta_P_(MPa1_2)",
+              "value": 7.7
+            },
+            {
+              "name": "Hansen_Delta_H_(MPa1_2)",
+              "value": 8.8
+            },
+            {
+              "name": "Solubility_Water_(20_øC_g_L)",
+              "value": 1.9
+            },
+            {
+              "name": "Density_(25øC__kg_L)",
+              "value": 1.04
+            },
+            {
+              "name": "Viscosity_(25øC__mPa_s)",
+              "value": 1.05
+            },
+            {
+              "name": "Relative_Vapour_Density__(Air=1)",
+              "value": 6.01
+            },
+            {
+              "name": "Log_P_Octanol_Water_(20øC)",
+              "value": 1.26
+            },
+            {
+              "name": "Refractive_Index_(20øC)",
+              "value": 1.42
+            },
+            {
+              "name": "Surface_Tension_(25øC_mN_m)",
+              "value": 31.37
+            }
+          ],
+          "distanceToCluster": 279.16666527976537,
+          "ehs_S_SCORE": "\"1\"",
+          "ehs_H_SCORE": "\"5\"",
+          "ehs_E_SCORE": "\"7\"",
+          "ehs_COLOR_CODE": "\"FFD700\""
+        },
+        {
+          "iD_Name": "\"Diethyl_malonate\"",
+          "iD_CAS_Nr": "\"105-53-3\"",
+          "iD_EG_Nr": "\"203-305-9\"",
+          "iD_EG_Annex_Nr": "\"NAV\"",
+          "source": "\"Mixed\"",
+          "name": "\"Diethyl_malonate\"",
+          "casNumber": "\"105-53-3\"",
+          "features": [
+            {
+              "name": "Boiling_Point__(øC)",
+              "value": 200.0
+            },
+            {
+              "name": "Melting_Point__(øC)",
+              "value": -50.0
+            },
+            {
+              "name": "Vapour_Pressure_(25øC_mmHg)",
+              "value": 0.270022206
+            },
+            {
+              "name": "Flash_Point__(øC)",
+              "value": 100.0
+            },
+            {
+              "name": "Autoignition_Temperature__(øC)",
+              "value": 424.0
+            },
+            {
+              "name": "Hansen_Delta_D_(MPa1_2)",
+              "value": 16.1
+            },
+            {
+              "name": "Hansen_Delta_P_(MPa1_2)",
+              "value": 7.7
+            },
+            {
+              "name": "Hansen_Delta_H_(MPa1_2)",
+              "value": 8.3
+            },
+            {
+              "name": "Solubility_Water_(20_øC_g_L)",
+              "value": 20.0
+            },
+            {
+              "name": "Density_(25øC__kg_L)",
+              "value": 1.06
+            },
+            {
+              "name": "Viscosity_(25øC__mPa_s)",
+              "value": 1.94
+            },
+            {
+              "name": "Relative_Vapour_Density__(Air=1)",
+              "value": 5.52
+            },
+            {
+              "name": "Log_P_Octanol_Water_(20øC)",
+              "value": 0.5027
+            },
+            {
+              "name": "Refractive_Index_(20øC)",
+              "value": 1.413
+            },
+            {
+              "name": "Surface_Tension_(25øC_mN_m)",
+              "value": 31.3
+            }
+          ],
+          "distanceToCluster": 254.35400984738473,
+          "ehs_S_SCORE": "\"1\"",
+          "ehs_H_SCORE": "\"2\"",
+          "ehs_E_SCORE": "\"5\"",
+          "ehs_COLOR_CODE": "\"9ACD32\""
+        },
+        {
+          "iD_Name": "\"isopropylacetate\"",
+          "iD_CAS_Nr": "\"108-21-4\"",
+          "iD_EG_Nr": "\"203-561-1\"",
+          "iD_EG_Annex_Nr": "\"NAV\"",
+          "source": "\"Mixed\"",
+          "name": "\"isopropylacetate\"",
+          "casNumber": "\"108-21-4\"",
+          "features": [
+            {
+              "name": "Boiling_Point__(øC)",
+              "value": 88.6
+            },
+            {
+              "name": "Melting_Point__(øC)",
+              "value": -73.4
+            },
+            {
+              "name": "Vapour_Pressure_(25øC_mmHg)",
+              "value": 60.37996548
+            },
+            {
+              "name": "Flash_Point__(øC)",
+              "value": 2.0
+            },
+            {
+              "name": "Autoignition_Temperature__(øC)",
+              "value": 460.0
+            },
+            {
+              "name": "Hansen_Delta_D_(MPa1_2)",
+              "value": 14.9
+            },
+            {
+              "name": "Hansen_Delta_P_(MPa1_2)",
+              "value": 4.5
+            },
+            {
+              "name": "Hansen_Delta_H_(MPa1_2)",
+              "value": 8.2
+            },
+            {
+              "name": "Solubility_Water_(20_øC_g_L)",
+              "value": 31.0
+            },
+            {
+              "name": "Density_(25øC__kg_L)",
+              "value": 0.89
+            },
+            {
+              "name": "Viscosity_(25øC__mPa_s)",
+              "value": 0.56
+            },
+            {
+              "name": "Relative_Vapour_Density__(Air=1)",
+              "value": 3.5
+            },
+            {
+              "name": "Log_P_Octanol_Water_(20øC)",
+              "value": 1.03
+            },
+            {
+              "name": "Refractive_Index_(20øC)",
+              "value": 1.3773
+            },
+            {
+              "name": "Surface_Tension_(25øC_mN_m)",
+              "value": 22.1
+            }
+          ],
+          "distanceToCluster": 223.46825977128205,
+          "ehs_S_SCORE": "\"4\"",
+          "ehs_H_SCORE": "\"2\"",
+          "ehs_E_SCORE": "\"3\"",
+          "ehs_COLOR_CODE": "\"9ACD32\""
+        },
+        {
+          "iD_Name": "\"n-propylacetate\"",
+          "iD_CAS_Nr": "\"109-60-4\"",
+          "iD_EG_Nr": "\"203-686-1\"",
+          "iD_EG_Annex_Nr": "\"NAV\"",
+          "source": "\"Mixed\"",
+          "name": "\"n-propylacetate\"",
+          "casNumber": "\"109-60-4\"",
+          "features": [
+            {
+              "name": "Boiling_Point__(øC)",
+              "value": 101.5
+            },
+            {
+              "name": "Melting_Point__(øC)",
+              "value": -93.0
+            },
+            {
+              "name": "Vapour_Pressure_(25øC_mmHg)",
+              "value": 35.92795462
+            },
+            {
+              "name": "Flash_Point__(øC)",
+              "value": 12.8
+            },
+            {
+              "name": "Autoignition_Temperature__(øC)",
+              "value": 450.0
+            },
+            {
+              "name": "Hansen_Delta_D_(MPa1_2)",
+              "value": 15.3
+            },
+            {
+              "name": "Hansen_Delta_P_(MPa1_2)",
+              "value": 4.3
+            },
+            {
+              "name": "Hansen_Delta_H_(MPa1_2)",
+              "value": 7.6
+            },
+            {
+              "name": "Solubility_Water_(20_øC_g_L)",
+              "value": 33.0
+            },
+            {
+              "name": "Density_(25øC__kg_L)",
+              "value": 0.89
+            },
+            {
+              "name": "Viscosity_(25øC__mPa_s)",
+              "value": 0.54
+            },
+            {
+              "name": "Relative_Vapour_Density__(Air=1)",
+              "value": 3.5
+            },
+            {
+              "name": "Log_P_Octanol_Water_(20øC)",
+              "value": 1.5
+            },
+            {
+              "name": "Refractive_Index_(20øC)",
+              "value": 1.38
+            },
+            {
+              "name": "Surface_Tension_(25øC_mN_m)",
+              "value": 23.8
+            }
+          ],
+          "distanceToCluster": 218.24157288187919,
+          "ehs_S_SCORE": "\"5\"",
+          "ehs_H_SCORE": "\"2\"",
+          "ehs_E_SCORE": "\"3\"",
+          "ehs_COLOR_CODE": "\"9ACD32\""
+        },
+        {
+          "iD_Name": "\"Amyl_acetate._n-\"",
+          "iD_CAS_Nr": "\"628-63-7\"",
+          "iD_EG_Nr": "\"NAV\"",
+          "iD_EG_Annex_Nr": "\"NAV\"",
+          "source": "\"Mixed\"",
+          "name": "\"Amyl_acetate._n-\"",
+          "casNumber": "\"628-63-7\"",
+          "features": [
+            {
+              "name": "Boiling_Point__(øC)",
+              "value": 149.2
+            },
+            {
+              "name": "Melting_Point__(øC)",
+              "value": -70.8
+            },
+            {
+              "name": "Vapour_Pressure_(25øC_mmHg)",
+              "value": 3.50278806
+            },
+            {
+              "name": "Flash_Point__(øC)",
+              "value": 23.9
+            },
+            {
+              "name": "Autoignition_Temperature__(øC)",
+              "value": 375.0
+            },
+            {
+              "name": "Hansen_Delta_D_(MPa1_2)",
+              "value": 15.8
+            },
+            {
+              "name": "Hansen_Delta_P_(MPa1_2)",
+              "value": 3.3
+            },
+            {
+              "name": "Hansen_Delta_H_(MPa1_2)",
+              "value": 6.1
+            },
+            {
+              "name": "Solubility_Water_(20_øC_g_L)",
+              "value": 1.7
+            },
+            {
+              "name": "Density_(25øC__kg_L)",
+              "value": 0.88
+            },
+            {
+              "name": "Viscosity_(25øC__mPa_s)",
+              "value": 0.86
+            },
+            {
+              "name": "Relative_Vapour_Density__(Air=1)",
+              "value": 4.5
+            },
+            {
+              "name": "Log_P_Octanol_Water_(20øC)",
+              "value": 1.74
+            },
+            {
+              "name": "Refractive_Index_(20øC)",
+              "value": 1.403
+            },
+            {
+              "name": "Surface_Tension_(25øC_mN_m)",
+              "value": 25.17
+            }
+          ],
+          "distanceToCluster": 246.52569972510105,
+          "ehs_S_SCORE": "\"3\"",
+          "ehs_H_SCORE": "\"0\"",
+          "ehs_E_SCORE": "\"5\"",
+          "ehs_COLOR_CODE": "\"9ACD32\""
+        },
+        {
+          "iD_Name": "\"Isoamyl_acetate\"",
+          "iD_CAS_Nr": "\"123-92-2\"",
+          "iD_EG_Nr": "\"204-662-3\"",
+          "iD_EG_Annex_Nr": "\"NAV\"",
+          "source": "\"Mixed\"",
+          "name": "\"Isoamyl_acetate\"",
+          "casNumber": "\"123-92-2\"",
+          "features": [
+            {
+              "name": "Boiling_Point__(øC)",
+              "value": 142.5
+            },
+            {
+              "name": "Melting_Point__(øC)",
+              "value": -78.5
+            },
+            {
+              "name": "Vapour_Pressure_(25øC_mmHg)",
+              "value": 5.602960772
+            },
+            {
+              "name": "Flash_Point__(øC)",
+              "value": 25.0
+            },
+            {
+              "name": "Autoignition_Temperature__(øC)",
+              "value": 379.0
+            },
+            {
+              "name": "Hansen_Delta_D_(MPa1_2)",
+              "value": 15.3
+            },
+            {
+              "name": "Hansen_Delta_P_(MPa1_2)",
+              "value": 3.1
+            },
+            {
+              "name": "Hansen_Delta_H_(MPa1_2)",
+              "value": 7.0
+            },
+            {
+              "name": "Solubility_Water_(20_øC_g_L)",
+              "value": 2.0
+            },
+            {
+              "name": "Density_(25øC__kg_L)",
+              "value": 0.88
+            },
+            {
+              "name": "Viscosity_(25øC__mPa_s)",
+              "value": 0.79
+            },
+            {
+              "name": "Relative_Vapour_Density__(Air=1)",
+              "value": 4.49
+            },
+            {
+              "name": "Log_P_Octanol_Water_(20øC)",
+              "value": 2.26
+            },
+            {
+              "name": "Refractive_Index_(20øC)",
+              "value": 1.398
+            },
+            {
+              "name": "Surface_Tension_(25øC_mN_m)",
+              "value": 24.28
+            }
+          ],
+          "distanceToCluster": 244.93973015580886,
+          "ehs_S_SCORE": "\"3\"",
+          "ehs_H_SCORE": "\"1\"",
+          "ehs_E_SCORE": "\"5\"",
+          "ehs_COLOR_CODE": "\"9ACD32\""
+        },
+        {
+          "iD_Name": "\"Isobutyl_acetate\"",
+          "iD_CAS_Nr": "\"110-19-0\"",
+          "iD_EG_Nr": "\"203-745-1\"",
+          "iD_EG_Annex_Nr": "\"NAV\"",
+          "source": "\"Mixed\"",
+          "name": "\"Isobutyl_acetate\"",
+          "casNumber": "\"110-19-0\"",
+          "features": [
+            {
+              "name": "Boiling_Point__(øC)",
+              "value": 116.5
+            },
+            {
+              "name": "Melting_Point__(øC)",
+              "value": -98.8
+            },
+            {
+              "name": "Vapour_Pressure_(25øC_mmHg)",
+              "value": 17.77646189
+            },
+            {
+              "name": "Flash_Point__(øC)",
+              "value": 20.0
+            },
+            {
+              "name": "Autoignition_Temperature__(øC)",
+              "value": 427.0
+            },
+            {
+              "name": "Hansen_Delta_D_(MPa1_2)",
+              "value": 15.1
+            },
+            {
+              "name": "Hansen_Delta_P_(MPa1_2)",
+              "value": 3.7
+            },
+            {
+              "name": "Hansen_Delta_H_(MPa1_2)",
+              "value": 6.3
+            },
+            {
+              "name": "Solubility_Water_(20_øC_g_L)",
+              "value": 7.0
+            },
+            {
+              "name": "Density_(25øC__kg_L)",
+              "value": 0.88
+            },
+            {
+              "name": "Viscosity_(25øC__mPa_s)",
+              "value": 0.69
+            },
+            {
+              "name": "Relative_Vapour_Density__(Air=1)",
+              "value": 4.0
+            },
+            {
+              "name": "Log_P_Octanol_Water_(20øC)",
+              "value": 1.72
+            },
+            {
+              "name": "Refractive_Index_(20øC)",
+              "value": 1.4
+            },
+            {
+              "name": "Surface_Tension_(25øC_mN_m)",
+              "value": 23.7
+            }
+          ],
+          "distanceToCluster": 240.46422792944637,
+          "ehs_S_SCORE": "\"4\"",
+          "ehs_H_SCORE": "\"2\"",
+          "ehs_E_SCORE": "\"3\"",
+          "ehs_COLOR_CODE": "\"9ACD32\""
+        },
+        {
+          "iD_Name": "\"n-Butyl_Acetate\"",
+          "iD_CAS_Nr": "\"123-86-4\"",
+          "iD_EG_Nr": "\"NAV\"",
+          "iD_EG_Annex_Nr": "\"NAV\"",
+          "source": "\"Caldic\"",
+          "name": "\"n-Butyl_Acetate\"",
+          "casNumber": "\"123-86-4\"",
+          "features": [
+            {
+              "name": "Boiling_Point__(øC)",
+              "value": 126.4
+            },
+            {
+              "name": "Melting_Point__(øC)",
+              "value": -78.0
+            },
+            {
+              "name": "Vapour_Pressure_(25øC_mmHg)",
+              "value": 11.498
+            },
+            {
+              "name": "Flash_Point__(øC)",
+              "value": 26.5
+            },
+            {
+              "name": "Autoignition_Temperature__(øC)",
+              "value": 421.11
+            },
+            {
+              "name": "Hansen_Delta_D_(MPa1_2)",
+              "value": 15.8
+            },
+            {
+              "name": "Hansen_Delta_P_(MPa1_2)",
+              "value": 3.7
+            },
+            {
+              "name": "Hansen_Delta_H_(MPa1_2)",
+              "value": 6.3
+            },
+            {
+              "name": "Solubility_Water_(20_øC_g_L)",
+              "value": 11.4
+            },
+            {
+              "name": "Density_(25øC__kg_L)",
+              "value": 0.876
+            },
+            {
+              "name": "Viscosity_(25øC__mPa_s)",
+              "value": 0.6
+            },
+            {
+              "name": "Relative_Vapour_Density__(Air=1)",
+              "value": 4.0
+            },
+            {
+              "name": "Log_P_Octanol_Water_(20øC)",
+              "value": 1.81
+            },
+            {
+              "name": "Refractive_Index_(20øC)",
+              "value": 1.3941
+            },
+            {
+              "name": "Surface_Tension_(25øC_mN_m)",
+              "value": 25.09
+            }
+          ],
+          "distanceToCluster": 234.94626548938803,
+          "ehs_S_SCORE": "\"4\"",
+          "ehs_H_SCORE": "\"2\"",
+          "ehs_E_SCORE": "\"3\"",
+          "ehs_COLOR_CODE": "\"9ACD32\""
+        },
+        {
+          "iD_Name": "\"n-Butyl_Propionate\"",
+          "iD_CAS_Nr": "\"590-01-2\"",
+          "iD_EG_Nr": "\"NAV\"",
+          "iD_EG_Annex_Nr": "\"NAV\"",
+          "source": "\"Caldic\"",
+          "name": "\"n-Butyl_Propionate\"",
+          "casNumber": "\"590-01-2\"",
+          "features": [
+            {
+              "name": "Boiling_Point__(øC)",
+              "value": 146.4
+            },
+            {
+              "name": "Melting_Point__(øC)",
+              "value": -90.0
+            },
+            {
+              "name": "Vapour_Pressure_(25øC_mmHg)",
+              "value": 3.44
+            },
+            {
+              "name": "Flash_Point__(øC)",
+              "value": 38.5
+            },
+            {
+              "name": "Autoignition_Temperature__(øC)",
+              "value": 426.11
+            },
+            {
+              "name": "Hansen_Delta_D_(MPa1_2)",
+              "value": 15.7
+            },
+            {
+              "name": "Hansen_Delta_P_(MPa1_2)",
+              "value": 5.5
+            },
+            {
+              "name": "Hansen_Delta_H_(MPa1_2)",
+              "value": 5.9
+            },
+            {
+              "name": "Solubility_Water_(20_øC_g_L)",
+              "value": 5.72
+            },
+            {
+              "name": "Density_(25øC__kg_L)",
+              "value": 0.871
+            },
+            {
+              "name": "Viscosity_(25øC__mPa_s)",
+              "value": 0.78
+            },
+            {
+              "name": "Relative_Vapour_Density__(Air=1)",
+              "value": 4.5
+            },
+            {
+              "name": "Log_P_Octanol_Water_(20øC)",
+              "value": 2.34
+            },
+            {
+              "name": "Refractive_Index_(20øC)",
+              "value": 1.401
+            },
+            {
+              "name": "Surface_Tension_(25øC_mN_m)",
+              "value": 24.89
+            }
+          ],
+          "distanceToCluster": 244.9506592356918,
+          "ehs_S_SCORE": "\"3\"",
+          "ehs_H_SCORE": "\"0\"",
+          "ehs_E_SCORE": "\"5\"",
+          "ehs_COLOR_CODE": "\"9ACD32\""
+        },
+        {
+          "iD_Name": "\"n-Propyl_Propionate\"",
+          "iD_CAS_Nr": "\"106-36-5\"",
+          "iD_EG_Nr": "\"NAV\"",
+          "iD_EG_Annex_Nr": "\"NAV\"",
+          "source": "\"Caldic\"",
+          "name": "\"n-Propyl_Propionate\"",
+          "casNumber": "\"106-36-5\"",
+          "features": [
+            {
+              "name": "Boiling_Point__(øC)",
+              "value": 122.8
+            },
+            {
+              "name": "Melting_Point__(øC)",
+              "value": -76.0
+            },
+            {
+              "name": "Vapour_Pressure_(25øC_mmHg)",
+              "value": 14.263
+            },
+            {
+              "name": "Flash_Point__(øC)",
+              "value": 22.5
+            },
+            {
+              "name": "Autoignition_Temperature__(øC)",
+              "value": 434.9
+            },
+            {
+              "name": "Hansen_Delta_D_(MPa1_2)",
+              "value": 15.5
+            },
+            {
+              "name": "Hansen_Delta_P_(MPa1_2)",
+              "value": 5.6
+            },
+            {
+              "name": "Hansen_Delta_H_(MPa1_2)",
+              "value": 5.7
+            },
+            {
+              "name": "Solubility_Water_(20_øC_g_L)",
+              "value": 6.0
+            },
+            {
+              "name": "Density_(25øC__kg_L)",
+              "value": 0.876
+            },
+            {
+              "name": "Viscosity_(25øC__mPa_s)",
+              "value": 0.64
+            },
+            {
+              "name": "Relative_Vapour_Density__(Air=1)",
+              "value": 4.0
+            },
+            {
+              "name": "Log_P_Octanol_Water_(20øC)",
+              "value": 1.804
+            },
+            {
+              "name": "Refractive_Index_(20øC)",
+              "value": 1.392
+            },
+            {
+              "name": "Surface_Tension_(25øC_mN_m)",
+              "value": 24.21
+            }
+          ],
+          "distanceToCluster": 241.67167525177626,
+          "ehs_S_SCORE": "\"4\"",
+          "ehs_H_SCORE": "\"2\"",
+          "ehs_E_SCORE": "\"5\"",
+          "ehs_COLOR_CODE": "\"FFD700\""
+        },
+        {
+          "iD_Name": "\"pentan-2-one\"",
+          "iD_CAS_Nr": "\"107-87-9\"",
+          "iD_EG_Nr": "\"203-528-1\"",
+          "iD_EG_Annex_Nr": "\"NAV\"",
+          "source": "\"PARIS_III\"",
+          "name": "\"pentan-2-one\"",
+          "casNumber": "\"107-87-9\"",
+          "features": [
+            {
+              "name": "Boiling_Point__(øC)",
+              "value": 102.2
+            },
+            {
+              "name": "Melting_Point__(øC)",
+              "value": -76.9
+            },
+            {
+              "name": "Vapour_Pressure_(25øC_mmHg)",
+              "value": 35.40291144
+            },
+            {
+              "name": "Flash_Point__(øC)",
+              "value": 7.2
+            },
+            {
+              "name": "Autoignition_Temperature__(øC)",
+              "value": 505.0
+            },
+            {
+              "name": "Hansen_Delta_D_(MPa1_2)",
+              "value": 16.0
+            },
+            {
+              "name": "Hansen_Delta_P_(MPa1_2)",
+              "value": 7.6
+            },
+            {
+              "name": "Hansen_Delta_H_(MPa1_2)",
+              "value": 4.7
+            },
+            {
+              "name": "Solubility_Water_(20_øC_g_L)",
+              "value": 43.0
+            },
+            {
+              "name": "Density_(25øC__kg_L)",
+              "value": 0.8
+            },
+            {
+              "name": "Viscosity_(25øC__mPa_s)",
+              "value": 0.47
+            },
+            {
+              "name": "Relative_Vapour_Density__(Air=1)",
+              "value": 2.9
+            },
+            {
+              "name": "Log_P_Octanol_Water_(20øC)",
+              "value": 0.91
+            },
+            {
+              "name": "Refractive_Index_(20øC)",
+              "value": 1.389
+            },
+            {
+              "name": "Surface_Tension_(25øC_mN_m)",
+              "value": 23.25
+            }
+          ],
+          "distanceToCluster": 229.5481668866604,
+          "ehs_S_SCORE": "\"5\"",
+          "ehs_H_SCORE": "\"2\"",
+          "ehs_E_SCORE": "\"3\"",
+          "ehs_COLOR_CODE": "\"9ACD32\""
+        },
+        {
+          "iD_Name": "\"4-methylpentan-2-one\"",
+          "iD_CAS_Nr": "\"108-10-1\"",
+          "iD_EG_Nr": "\"203-550-1\"",
+          "iD_EG_Annex_Nr": "\"NAV\"",
+          "source": "\"PARIS_III\"",
+          "name": "\"4-methylpentan-2-one\"",
+          "casNumber": "\"108-10-1\"",
+          "features": [
+            {
+              "name": "Boiling_Point__(øC)",
+              "value": 116.5
+            },
+            {
+              "name": "Melting_Point__(øC)",
+              "value": -84.0
+            },
+            {
+              "name": "Vapour_Pressure_(25øC_mmHg)",
+              "value": 19.8766346
+            },
+            {
+              "name": "Flash_Point__(øC)",
+              "value": 13.3
+            },
+            {
+              "name": "Autoignition_Temperature__(øC)",
+              "value": 460.0
+            },
+            {
+              "name": "Hansen_Delta_D_(MPa1_2)",
+              "value": 15.3
+            },
+            {
+              "name": "Hansen_Delta_P_(MPa1_2)",
+              "value": 6.1
+            },
+            {
+              "name": "Hansen_Delta_H_(MPa1_2)",
+              "value": 4.1
+            },
+            {
+              "name": "Solubility_Water_(20_øC_g_L)",
+              "value": 17.0
+            },
+            {
+              "name": "Density_(25øC__kg_L)",
+              "value": 0.8
+            },
+            {
+              "name": "Viscosity_(25øC__mPa_s)",
+              "value": 0.54
+            },
+            {
+              "name": "Relative_Vapour_Density__(Air=1)",
+              "value": 3.45
+            },
+            {
+              "name": "Log_P_Octanol_Water_(20øC)",
+              "value": 1.19
+            },
+            {
+              "name": "Refractive_Index_(20øC)",
+              "value": 1.3962
+            },
+            {
+              "name": "Surface_Tension_(25øC_mN_m)",
+              "value": 23.6
+            }
+          ],
+          "distanceToCluster": 236.68468648583061,
+          "ehs_S_SCORE": "\"4\"",
+          "ehs_H_SCORE": "\"2\"",
+          "ehs_E_SCORE": "\"3\"",
+          "ehs_COLOR_CODE": "\"9ACD32\""
+        },
+        {
+          "iD_Name": "\"butan-2-one\"",
+          "iD_CAS_Nr": "\"78-93-3\"",
+          "iD_EG_Nr": "\"201-159-0\"",
+          "iD_EG_Annex_Nr": "\"NAV\"",
+          "source": "\"PARIS_III\"",
+          "name": "\"butan-2-one\"",
+          "casNumber": "\"78-93-3\"",
+          "features": [
+            {
+              "name": "Boiling_Point__(øC)",
+              "value": 79.5
+            },
+            {
+              "name": "Melting_Point__(øC)",
+              "value": -86.6
+            },
+            {
+              "name": "Vapour_Pressure_(25øC_mmHg)",
+              "value": 95.33
+            },
+            {
+              "name": "Flash_Point__(øC)",
+              "value": 9.0
+            },
+            {
+              "name": "Autoignition_Temperature__(øC)",
+              "value": 404.0
+            },
+            {
+              "name": "Hansen_Delta_D_(MPa1_2)",
+              "value": 16.0
+            },
+            {
+              "name": "Hansen_Delta_P_(MPa1_2)",
+              "value": 9.0
+            },
+            {
+              "name": "Hansen_Delta_H_(MPa1_2)",
+              "value": 5.1
+            },
+            {
+              "name": "Solubility_Water_(20_øC_g_L)",
+              "value": 290.0
+            },
+            {
+              "name": "Density_(25øC__kg_L)",
+              "value": 0.79
+            },
+            {
+              "name": "Viscosity_(25øC__mPa_s)",
+              "value": 0.4
+            },
+            {
+              "name": "Relative_Vapour_Density__(Air=1)",
+              "value": 2.5
+            },
+            {
+              "name": "Log_P_Octanol_Water_(20øC)",
+              "value": 0.29
+            },
+            {
+              "name": "Refractive_Index_(20øC)",
+              "value": 1.3788
+            },
+            {
+              "name": "Surface_Tension_(25øC_mN_m)",
+              "value": 23.96
+            }
+          ],
+          "distanceToCluster": 79.9874600561863,
+          "ehs_S_SCORE": "\"5\"",
+          "ehs_H_SCORE": "\"3\"",
+          "ehs_E_SCORE": "\"3\"",
+          "ehs_COLOR_CODE": "\"9ACD32\""
+        },
+        {
+          "iD_Name": "\"dipropylether\"",
+          "iD_CAS_Nr": "\"111-43-3\"",
+          "iD_EG_Nr": "\"203-869-6\"",
+          "iD_EG_Annex_Nr": "\"NAV\"",
+          "source": "\"PARIS_III\"",
+          "name": "\"dipropylether\"",
+          "casNumber": "\"111-43-3\"",
+          "features": [
+            {
+              "name": "Boiling_Point__(øC)",
+              "value": 90.0
+            },
+            {
+              "name": "Melting_Point__(øC)",
+              "value": -122.0
+            },
+            {
+              "name": "Vapour_Pressure_(25øC_mmHg)",
+              "value": 62.55514436
+            },
+            {
+              "name": "Flash_Point__(øC)",
+              "value": -20.0
+            },
+            {
+              "name": "Autoignition_Temperature__(øC)",
+              "value": 215.0
+            },
+            {
+              "name": "Hansen_Delta_D_(MPa1_2)",
+              "value": 15.1
+            },
+            {
+              "name": "Hansen_Delta_P_(MPa1_2)",
+              "value": 3.2
+            },
+            {
+              "name": "Hansen_Delta_H_(MPa1_2)",
+              "value": 3.2
+            },
+            {
+              "name": "Solubility_Water_(20_øC_g_L)",
+              "value": 3.0
+            },
+            {
+              "name": "Density_(25øC__kg_L)",
+              "value": 0.74
+            },
+            {
+              "name": "Viscosity_(25øC__mPa_s)",
+              "value": 0.4
+            },
+            {
+              "name": "Relative_Vapour_Density__(Air=1)",
+              "value": 3.53
+            },
+            {
+              "name": "Log_P_Octanol_Water_(20øC)",
+              "value": 2.03
+            },
+            {
+              "name": "Refractive_Index_(20øC)",
+              "value": 1.366
+            },
+            {
+              "name": "Surface_Tension_(25øC_mN_m)",
+              "value": 19.98
+            }
+          ],
+          "distanceToCluster": 305.85915352182093,
+          "ehs_S_SCORE": "\"6\"",
+          "ehs_H_SCORE": "\"2\"",
+          "ehs_E_SCORE": "\"5\"",
+          "ehs_COLOR_CODE": "\"FFD700\""
+        },
+        {
+          "iD_Name": "\"Diethyl_ether\"",
+          "iD_CAS_Nr": "\"60-29-7\"",
+          "iD_EG_Nr": "\"200-467-2\"",
+          "iD_EG_Annex_Nr": "\"NAV\"",
+          "source": "\"PARIS_III\"",
+          "name": "\"Diethyl_ether\"",
+          "casNumber": "\"60-29-7\"",
+          "features": [
+            {
+              "name": "Boiling_Point__(øC)",
+              "value": 34.6
+            },
+            {
+              "name": "Melting_Point__(øC)",
+              "value": -116.3
+            },
+            {
+              "name": "Vapour_Pressure_(25øC_mmHg)",
+              "value": 537.044165
+            },
+            {
+              "name": "Flash_Point__(øC)",
+              "value": -45.0
+            },
+            {
+              "name": "Autoignition_Temperature__(øC)",
+              "value": 160.0
+            },
+            {
+              "name": "Hansen_Delta_D_(MPa1_2)",
+              "value": 14.5
+            },
+            {
+              "name": "Hansen_Delta_P_(MPa1_2)",
+              "value": 2.9
+            },
+            {
+              "name": "Hansen_Delta_H_(MPa1_2)",
+              "value": 4.6
+            },
+            {
+              "name": "Solubility_Water_(20_øC_g_L)",
+              "value": 69.0
+            },
+            {
+              "name": "Density_(25øC__kg_L)",
+              "value": 0.73
+            },
+            {
+              "name": "Viscosity_(25øC__mPa_s)",
+              "value": 0.22
+            },
+            {
+              "name": "Relative_Vapour_Density__(Air=1)",
+              "value": 2.55
+            },
+            {
+              "name": "Log_P_Octanol_Water_(20øC)",
+              "value": 0.82
+            },
+            {
+              "name": "Refractive_Index_(20øC)",
+              "value": 1.352
+            },
+            {
+              "name": "Surface_Tension_(25øC_mN_m)",
+              "value": 16.65
+            }
+          ],
+          "distanceToCluster": 573.68381045258479,
+          "ehs_S_SCORE": "\"10\"",
+          "ehs_H_SCORE": "\"3\"",
+          "ehs_E_SCORE": "\"7\"",
+          "ehs_COLOR_CODE": "\"FF6347\""
+        },
+        {
+          "iD_Name": "\"tetrahydrofuran\"",
+          "iD_CAS_Nr": "\"109-99-9\"",
+          "iD_EG_Nr": "\"203-726-8\"",
+          "iD_EG_Annex_Nr": "\"603-025-00-0\"",
+          "source": "\"Mixed\"",
+          "name": "\"tetrahydrofuran\"",
+          "casNumber": "\"109-99-9\"",
+          "features": [
+            {
+              "name": "Boiling_Point__(øC)",
+              "value": 66.0
+            },
+            {
+              "name": "Melting_Point__(øC)",
+              "value": -108.4
+            },
+            {
+              "name": "Vapour_Pressure_(25øC_mmHg)",
+              "value": 162.0133235
+            },
+            {
+              "name": "Flash_Point__(øC)",
+              "value": -14.0
+            },
+            {
+              "name": "Autoignition_Temperature__(øC)",
+              "value": 321.0
+            },
+            {
+              "name": "Hansen_Delta_D_(MPa1_2)",
+              "value": 16.8
+            },
+            {
+              "name": "Hansen_Delta_P_(MPa1_2)",
+              "value": 5.7
+            },
+            {
+              "name": "Hansen_Delta_H_(MPa1_2)",
+              "value": 8.0
+            },
+            {
+              "name": "Solubility_Water_(20_øC_g_L)",
+              "value": 1000.0
+            },
+            {
+              "name": "Density_(25øC__kg_L)",
+              "value": 0.8833
+            },
+            {
+              "name": "Viscosity_(25øC__mPa_s)",
+              "value": 0.456
+            },
+            {
+              "name": "Relative_Vapour_Density__(Air=1)",
+              "value": 2.5
+            },
+            {
+              "name": "Log_P_Octanol_Water_(20øC)",
+              "value": 0.45
+            },
+            {
+              "name": "Refractive_Index_(20øC)",
+              "value": 1.41
+            },
+            {
+              "name": "Surface_Tension_(25øC_mN_m)",
+              "value": 26.32
+            }
+          ],
+          "distanceToCluster": 774.482529031818,
+          "ehs_S_SCORE": "\"6\"",
+          "ehs_H_SCORE": "\"7\"",
+          "ehs_E_SCORE": "\"5\"",
+          "ehs_COLOR_CODE": "\"FFD700\""
+        },
+        {
+          "iD_Name": "\"Methyl_tetrahydrofuran._2-\"",
+          "iD_CAS_Nr": "\"96-47-9\"",
+          "iD_EG_Nr": "\"202-507-4\"",
+          "iD_EG_Annex_Nr": "\"NAV\"",
+          "source": "\"Mixed\"",
+          "name": "\"Methyl_tetrahydrofuran._2-\"",
+          "casNumber": "\"96-47-9\"",
+          "features": [
+            {
+              "name": "Boiling_Point__(øC)",
+              "value": 78.0
+            },
+            {
+              "name": "Melting_Point__(øC)",
+              "value": -136.0
+            },
+            {
+              "name": "Vapour_Pressure_(25øC_mmHg)",
+              "value": 154.5127067
+            },
+            {
+              "name": "Flash_Point__(øC)",
+              "value": -11.0
+            },
+            {
+              "name": "Autoignition_Temperature__(øC)",
+              "value": 270.0
+            },
+            {
+              "name": "Hansen_Delta_D_(MPa1_2)",
+              "value": 16.9
+            },
+            {
+              "name": "Hansen_Delta_P_(MPa1_2)",
+              "value": 5.0
+            },
+            {
+              "name": "Hansen_Delta_H_(MPa1_2)",
+              "value": 4.3
+            },
+            {
+              "name": "Solubility_Water_(20_øC_g_L)",
+              "value": 150.0
+            },
+            {
+              "name": "Density_(25øC__kg_L)",
+              "value": 0.86
+            },
+            {
+              "name": "Viscosity_(25øC__mPa_s)",
+              "value": 0.61
+            },
+            {
+              "name": "Relative_Vapour_Density__(Air=1)",
+              "value": 2.5
+            },
+            {
+              "name": "Log_P_Octanol_Water_(20øC)",
+              "value": 1.1853
+            },
+            {
+              "name": "Refractive_Index_(20øC)",
+              "value": 1.405
+            },
+            {
+              "name": "Surface_Tension_(25øC_mN_m)",
+              "value": 26.41
+            }
+          ],
+          "distanceToCluster": 200.53785293727773,
+          "ehs_S_SCORE": "\"6\"",
+          "ehs_H_SCORE": "\"5\"",
+          "ehs_E_SCORE": "\"3\"",
+          "ehs_COLOR_CODE": "\"FFD700\""
+        },
+        {
+          "iD_Name": "\"Diisopropyl_ether\"",
+          "iD_CAS_Nr": "\"108-20-3\"",
+          "iD_EG_Nr": "\"204-881-4\"",
+          "iD_EG_Annex_Nr": "\"NAV\"",
+          "source": "\"DNCP\"",
+          "name": "\"Diisopropyl_ether\"",
+          "casNumber": "\"108-20-3\"",
+          "features": [
+            {
+              "name": "Boiling_Point__(øC)",
+              "value": 68.0
+            },
+            {
+              "name": "Melting_Point__(øC)",
+              "value": -86.8
+            },
+            {
+              "name": "Vapour_Pressure_(25øC_mmHg)",
+              "value": 149.2622749
+            },
+            {
+              "name": "Flash_Point__(øC)",
+              "value": -29.0
+            },
+            {
+              "name": "Autoignition_Temperature__(øC)",
+              "value": 405.0
+            },
+            {
+              "name": "Hansen_Delta_D_(MPa1_2)",
+              "value": 15.1
+            },
+            {
+              "name": "Hansen_Delta_P_(MPa1_2)",
+              "value": 3.2
+            },
+            {
+              "name": "Hansen_Delta_H_(MPa1_2)",
+              "value": 3.2
+            },
+            {
+              "name": "Solubility_Water_(20_øC_g_L)",
+              "value": 9.0
+            },
+            {
+              "name": "Density_(25øC__kg_L)",
+              "value": 0.7192
+            },
+            {
+              "name": "Viscosity_(25øC__mPa_s)",
+              "value": 0.38
+            },
+            {
+              "name": "Relative_Vapour_Density__(Air=1)",
+              "value": 3.5
+            },
+            {
+              "name": "Log_P_Octanol_Water_(20øC)",
+              "value": 1.52
+            },
+            {
+              "name": "Refractive_Index_(20øC)",
+              "value": 1.368
+            },
+            {
+              "name": "Surface_Tension_(25øC_mN_m)",
+              "value": 17.34
+            }
+          ],
+          "distanceToCluster": 261.56238458957392,
+          "ehs_S_SCORE": "\"9\"",
+          "ehs_H_SCORE": "\"3\"",
+          "ehs_E_SCORE": "\"5\"",
+          "ehs_COLOR_CODE": "\"FF6347\""
+        },
+        {
+          "iD_Name": "\"MTBE\"",
+          "iD_CAS_Nr": "\"1634-04-4\"",
+          "iD_EG_Nr": "\"216-653-1\"",
+          "iD_EG_Annex_Nr": "\"NAV\"",
+          "source": "\"Mixed\"",
+          "name": "\"MTBE\"",
+          "casNumber": "\"1634-04-4\"",
+          "features": [
+            {
+              "name": "Boiling_Point__(øC)",
+              "value": 54.0
+            },
+            {
+              "name": "Melting_Point__(øC)",
+              "value": -110.0
+            },
+            {
+              "name": "Vapour_Pressure_(25øC_mmHg)",
+              "value": 204.0
+            },
+            {
+              "name": "Flash_Point__(øC)",
+              "value": -28.0
+            },
+            {
+              "name": "Autoignition_Temperature__(øC)",
+              "value": 224.0
+            },
+            {
+              "name": "Hansen_Delta_D_(MPa1_2)",
+              "value": 14.8
+            },
+            {
+              "name": "Hansen_Delta_P_(MPa1_2)",
+              "value": 4.3
+            },
+            {
+              "name": "Hansen_Delta_H_(MPa1_2)",
+              "value": 5.0
+            },
+            {
+              "name": "Solubility_Water_(20_øC_g_L)",
+              "value": 51.0
+            },
+            {
+              "name": "Density_(25øC__kg_L)",
+              "value": 0.7353
+            },
+            {
+              "name": "Viscosity_(25øC__mPa_s)",
+              "value": 0.44
+            },
+            {
+              "name": "Relative_Vapour_Density__(Air=1)",
+              "value": 3.23
+            },
+            {
+              "name": "Log_P_Octanol_Water_(20øC)",
+              "value": 1.06
+            },
+            {
+              "name": "Refractive_Index_(20øC)",
+              "value": 1.369
+            },
+            {
+              "name": "Surface_Tension_(25øC_mN_m)",
+              "value": 20.43
+            }
+          ],
+          "distanceToCluster": 308.13606523399687,
+          "ehs_S_SCORE": "\"8\"",
+          "ehs_H_SCORE": "\"3\"",
+          "ehs_E_SCORE": "\"5\"",
+          "ehs_COLOR_CODE": "\"FF6347\""
+        },
+        {
+          "iD_Name": "\"tert-Amyl_methyl_ether\"",
+          "iD_CAS_Nr": "\"994-05-8\"",
+          "iD_EG_Nr": "\"NAV\"",
+          "iD_EG_Annex_Nr": "\"NAV\"",
+          "source": "\"Mixed\"",
+          "name": "\"tert-Amyl_methyl_ether\"",
+          "casNumber": "\"994-05-8\"",
+          "features": [
+            {
+              "name": "Boiling_Point__(øC)",
+              "value": 86.3
+            },
+            {
+              "name": "Melting_Point__(øC)",
+              "value": -80.0
+            },
+            {
+              "name": "Vapour_Pressure_(25øC_mmHg)",
+              "value": 75.2
+            },
+            {
+              "name": "Flash_Point__(øC)",
+              "value": -11.0
+            },
+            {
+              "name": "Autoignition_Temperature__(øC)",
+              "value": 415.0
+            },
+            {
+              "name": "Hansen_Delta_D_(MPa1_2)",
+              "value": 15.2
+            },
+            {
+              "name": "Hansen_Delta_P_(MPa1_2)",
+              "value": 4.5
+            },
+            {
+              "name": "Hansen_Delta_H_(MPa1_2)",
+              "value": 2.5
+            },
+            {
+              "name": "Solubility_Water_(20_øC_g_L)",
+              "value": 4.4
+            },
+            {
+              "name": "Density_(25øC__kg_L)",
+              "value": 0.766
+            },
+            {
+              "name": "Viscosity_(25øC__mPa_s)",
+              "value": 0.46
+            },
+            {
+              "name": "Relative_Vapour_Density__(Air=1)",
+              "value": 3.0
+            },
+            {
+              "name": "Log_P_Octanol_Water_(20øC)",
+              "value": 1.55
+            },
+            {
+              "name": "Refractive_Index_(20øC)",
+              "value": 1.3862
+            },
+            {
+              "name": "Surface_Tension_(25øC_mN_m)",
+              "value": 18.3
+            }
+          ],
+          "distanceToCluster": 243.25653406977582,
+          "ehs_S_SCORE": "\"6\"",
+          "ehs_H_SCORE": "\"2\"",
+          "ehs_E_SCORE": "\"3\"",
+          "ehs_COLOR_CODE": "\"9ACD32\""
+        },
+        {
+          "iD_Name": "\"Cyclopentyl_methyl_ether\"",
+          "iD_CAS_Nr": "\"5614-37-9\"",
+          "iD_EG_Nr": "\"NAV\"",
+          "iD_EG_Annex_Nr": "\"NAV\"",
+          "source": "\"Mixed\"",
+          "name": "\"Cyclopentyl_methyl_ether\"",
+          "casNumber": "\"5614-37-9\"",
+          "features": [
+            {
+              "name": "Boiling_Point__(øC)",
+              "value": 106.0
+            },
+            {
+              "name": "Melting_Point__(øC)",
+              "value": -134.0
+            },
+            {
+              "name": "Vapour_Pressure_(25øC_mmHg)",
+              "value": 31.87762153
+            },
+            {
+              "name": "Flash_Point__(øC)",
+              "value": -1.0
+            },
+            {
+              "name": "Autoignition_Temperature__(øC)",
+              "value": 180.0
+            },
+            {
+              "name": "Hansen_Delta_D_(MPa1_2)",
+              "value": 16.7
+            },
+            {
+              "name": "Hansen_Delta_P_(MPa1_2)",
+              "value": 4.3
+            },
+            {
+              "name": "Hansen_Delta_H_(MPa1_2)",
+              "value": 4.3
+            },
+            {
+              "name": "Solubility_Water_(20_øC_g_L)",
+              "value": 0.011
+            },
+            {
+              "name": "Density_(25øC__kg_L)",
+              "value": 0.88
+            },
+            {
+              "name": "Viscosity_(25øC__mPa_s)",
+              "value": 1.34
+            },
+            {
+              "name": "Relative_Vapour_Density__(Air=1)",
+              "value": 3.45
+            },
+            {
+              "name": "Log_P_Octanol_Water_(20øC)",
+              "value": 1.59
+            },
+            {
+              "name": "Refractive_Index_(20øC)",
+              "value": 1.421
+            },
+            {
+              "name": "Surface_Tension_(25øC_mN_m)",
+              "value": 25.86
+            }
+          ],
+          "distanceToCluster": 329.169548093021,
+          "ehs_S_SCORE": "\"7\"",
+          "ehs_H_SCORE": "\"2\"",
+          "ehs_E_SCORE": "\"5\"",
+          "ehs_COLOR_CODE": "\"FFD700\""
+        },
+        {
+          "iD_Name": "\"dimethylacetamide\"",
+          "iD_CAS_Nr": "\"127-19-5\"",
+          "iD_EG_Nr": "\"204-826-4\"",
+          "iD_EG_Annex_Nr": "\"NAV\"",
+          "source": "\"Mixed\"",
+          "name": "\"dimethylacetamide\"",
+          "casNumber": "\"127-19-5\"",
+          "features": [
+            {
+              "name": "Boiling_Point__(øC)",
+              "value": 165.0
+            },
+            {
+              "name": "Melting_Point__(øC)",
+              "value": -20.0
+            },
+            {
+              "name": "Vapour_Pressure_(25øC_mmHg)",
+              "value": 2.002664694
+            },
+            {
+              "name": "Flash_Point__(øC)",
+              "value": 66.0
+            },
+            {
+              "name": "Autoignition_Temperature__(øC)",
+              "value": 490.0
+            },
+            {
+              "name": "Hansen_Delta_D_(MPa1_2)",
+              "value": 16.8
+            },
+            {
+              "name": "Hansen_Delta_P_(MPa1_2)",
+              "value": 11.5
+            },
+            {
+              "name": "Hansen_Delta_H_(MPa1_2)",
+              "value": 9.4
+            },
+            {
+              "name": "Solubility_Water_(20_øC_g_L)",
+              "value": 1000.0
+            },
+            {
+              "name": "Density_(25øC__kg_L)",
+              "value": 0.9372
+            },
+            {
+              "name": "Viscosity_(25øC__mPa_s)",
+              "value": 1.927
+            },
+            {
+              "name": "Relative_Vapour_Density__(Air=1)",
+              "value": 3.02
+            },
+            {
+              "name": "Log_P_Octanol_Water_(20øC)",
+              "value": 0.8
+            },
+            {
+              "name": "Refractive_Index_(20øC)",
+              "value": 1.4379
+            },
+            {
+              "name": "Surface_Tension_(25øC_mN_m)",
+              "value": 32.43
+            }
+          ],
+          "distanceToCluster": 772.12112561182118,
+          "ehs_S_SCORE": "\"1\"",
+          "ehs_H_SCORE": "\"9\"",
+          "ehs_E_SCORE": "\"5\"",
+          "ehs_COLOR_CODE": "\"FF6347\""
+        },
+        {
+          "iD_Name": "\"N-methyl_pyrrolidone\"",
+          "iD_CAS_Nr": "\"872-50-4\"",
+          "iD_EG_Nr": "\"212-828-1\"",
+          "iD_EG_Annex_Nr": "\"606-021-00-7\"",
+          "source": "\"Mixed\"",
+          "name": "\"N-methyl_pyrrolidone\"",
+          "casNumber": "\"872-50-4\"",
+          "features": [
+            {
+              "name": "Boiling_Point__(øC)",
+              "value": 202.0
+            },
+            {
+              "name": "Melting_Point__(øC)",
+              "value": -24.0
+            },
+            {
+              "name": "Vapour_Pressure_(25øC_mmHg)",
+              "value": 0.350278806
+            },
+            {
+              "name": "Flash_Point__(øC)",
+              "value": 91.0
+            },
+            {
+              "name": "Autoignition_Temperature__(øC)",
+              "value": 269.0
+            },
+            {
+              "name": "Hansen_Delta_D_(MPa1_2)",
+              "value": 18.0
+            },
+            {
+              "name": "Hansen_Delta_P_(MPa1_2)",
+              "value": 12.3
+            },
+            {
+              "name": "Hansen_Delta_H_(MPa1_2)",
+              "value": 7.2
+            },
+            {
+              "name": "Solubility_Water_(20_øC_g_L)",
+              "value": 1000.0
+            },
+            {
+              "name": "Density_(25øC__kg_L)",
+              "value": 1.023
+            },
+            {
+              "name": "Viscosity_(25øC__mPa_s)",
+              "value": 1.666
+            },
+            {
+              "name": "Relative_Vapour_Density__(Air=1)",
+              "value": 3.4
+            },
+            {
+              "name": "Log_P_Octanol_Water_(20øC)",
+              "value": -0.46
+            },
+            {
+              "name": "Refractive_Index_(20øC)",
+              "value": 1.4684
+            },
+            {
+              "name": "Surface_Tension_(25øC_mN_m)",
+              "value": 40.7
+            }
+          ],
+          "distanceToCluster": 780.48724906239022,
+          "ehs_S_SCORE": "\"1\"",
+          "ehs_H_SCORE": "\"9\"",
+          "ehs_E_SCORE": "\"7\"",
+          "ehs_COLOR_CODE": "\"FF6347\""
+        },
+        {
+          "iD_Name": "\"dimethylformamide\"",
+          "iD_CAS_Nr": "\"68-12-2\"",
+          "iD_EG_Nr": "\"200-679-5\"",
+          "iD_EG_Annex_Nr": "\"616-001-00-x\"",
+          "source": "\"Mixed\"",
+          "name": "\"dimethylformamide\"",
+          "casNumber": "\"68-12-2\"",
+          "features": [
+            {
+              "name": "Boiling_Point__(øC)",
+              "value": 153.0
+            },
+            {
+              "name": "Melting_Point__(øC)",
+              "value": -61.0
+            },
+            {
+              "name": "Vapour_Pressure_(25øC_mmHg)",
+              "value": 3.870318284
+            },
+            {
+              "name": "Flash_Point__(øC)",
+              "value": 58.0
+            },
+            {
+              "name": "Autoignition_Temperature__(øC)",
+              "value": 445.0
+            },
+            {
+              "name": "Hansen_Delta_D_(MPa1_2)",
+              "value": 17.4
+            },
+            {
+              "name": "Hansen_Delta_P_(MPa1_2)",
+              "value": 13.7
+            },
+            {
+              "name": "Hansen_Delta_H_(MPa1_2)",
+              "value": 11.3
+            },
+            {
+              "name": "Solubility_Water_(20_øC_g_L)",
+              "value": 1000.0
+            },
+            {
+              "name": "Density_(25øC__kg_L)",
+              "value": 0.9445
+            },
+            {
+              "name": "Viscosity_(25øC__mPa_s)",
+              "value": 0.794
+            },
+            {
+              "name": "Relative_Vapour_Density__(Air=1)",
+              "value": 2.5
+            },
+            {
+              "name": "Log_P_Octanol_Water_(20øC)",
+              "value": -1.028
+            },
+            {
+              "name": "Refractive_Index_(20øC)",
+              "value": 1.4305
+            },
+            {
+              "name": "Surface_Tension_(25øC_mN_m)",
+              "value": 34.935424
+            }
+          ],
+          "distanceToCluster": 765.05295049629444,
+          "ehs_S_SCORE": "\"3\"",
+          "ehs_H_SCORE": "\"9\"",
+          "ehs_E_SCORE": "\"5\"",
+          "ehs_COLOR_CODE": "\"FF6347\""
+        },
+        {
+          "iD_Name": "\"dimethylsulfoxide\"",
+          "iD_CAS_Nr": "\"67-68-5\"",
+          "iD_EG_Nr": "\"NAV\"",
+          "iD_EG_Annex_Nr": "\"NAV\"",
+          "source": "\"Mixed\"",
+          "name": "\"dimethylsulfoxide\"",
+          "casNumber": "\"67-68-5\"",
+          "features": [
+            {
+              "name": "Boiling_Point__(øC)",
+              "value": 189.0
+            },
+            {
+              "name": "Melting_Point__(øC)",
+              "value": 18.4
+            },
+            {
+              "name": "Vapour_Pressure_(25øC_mmHg)",
+              "value": 0.609800148
+            },
+            {
+              "name": "Flash_Point__(øC)",
+              "value": 87.0
+            },
+            {
+              "name": "Autoignition_Temperature__(øC)",
+              "value": 301.0
+            },
+            {
+              "name": "Hansen_Delta_D_(MPa1_2)",
+              "value": 18.4
+            },
+            {
+              "name": "Hansen_Delta_P_(MPa1_2)",
+              "value": 16.4
+            },
+            {
+              "name": "Hansen_Delta_H_(MPa1_2)",
+              "value": 10.2
+            },
+            {
+              "name": "Solubility_Water_(20_øC_g_L)",
+              "value": 1000.0
+            },
+            {
+              "name": "Density_(25øC__kg_L)",
+              "value": 1.101
+            },
+            {
+              "name": "Viscosity_(25øC__mPa_s)",
+              "value": 1.987
+            },
+            {
+              "name": "Relative_Vapour_Density__(Air=1)",
+              "value": 2.69
+            },
+            {
+              "name": "Log_P_Octanol_Water_(20øC)",
+              "value": -2.03
+            },
+            {
+              "name": "Refractive_Index_(20øC)",
+              "value": 1.4793
+            },
+            {
+              "name": "Surface_Tension_(25øC_mN_m)",
+              "value": 42.92
+            }
+          ],
+          "distanceToCluster": 778.31626725119224,
+          "ehs_S_SCORE": "\"1\"",
+          "ehs_H_SCORE": "\"1\"",
+          "ehs_E_SCORE": "\"5\"",
+          "ehs_COLOR_CODE": "\"FFD700\""
+        },
+        {
+          "iD_Name": "\"acetonitrile\"",
+          "iD_CAS_Nr": "\"75-05-8\"",
+          "iD_EG_Nr": "\"NAV\"",
+          "iD_EG_Annex_Nr": "\"NAV\"",
+          "source": "\"Mixed\"",
+          "name": "\"acetonitrile\"",
+          "casNumber": "\"75-05-8\"",
+          "features": [
+            {
+              "name": "Boiling_Point__(øC)",
+              "value": 81.0
+            },
+            {
+              "name": "Melting_Point__(øC)",
+              "value": -46.0
+            },
+            {
+              "name": "Vapour_Pressure_(25øC_mmHg)",
+              "value": 8.850727859
+            },
+            {
+              "name": "Flash_Point__(øC)",
+              "value": 12.8
+            },
+            {
+              "name": "Autoignition_Temperature__(øC)",
+              "value": 525.0
+            },
+            {
+              "name": "Hansen_Delta_D_(MPa1_2)",
+              "value": 15.3
+            },
+            {
+              "name": "Hansen_Delta_P_(MPa1_2)",
+              "value": 18.0
+            },
+            {
+              "name": "Hansen_Delta_H_(MPa1_2)",
+              "value": 6.1
+            },
+            {
+              "name": "Solubility_Water_(20_øC_g_L)",
+              "value": 1000.0
+            },
+            {
+              "name": "Density_(25øC__kg_L)",
+              "value": 0.79
+            },
+            {
+              "name": "Viscosity_(25øC__mPa_s)",
+              "value": 0.369
+            },
+            {
+              "name": "Relative_Vapour_Density__(Air=1)",
+              "value": 1.42
+            },
+            {
+              "name": "Log_P_Octanol_Water_(20øC)",
+              "value": -0.34
+            },
+            {
+              "name": "Refractive_Index_(20øC)",
+              "value": 1.344
+            },
+            {
+              "name": "Surface_Tension_(25øC_mN_m)",
+              "value": 28.66
+            }
+          ],
+          "distanceToCluster": 774.51297746883893,
+          "ehs_S_SCORE": "\"4\"",
+          "ehs_H_SCORE": "\"3\"",
+          "ehs_E_SCORE": "\"3\"",
+          "ehs_COLOR_CODE": "\"FFD700\""
+        },
+        {
+          "iD_Name": "\"chloroform\"",
+          "iD_CAS_Nr": "\"67-66-3\"",
+          "iD_EG_Nr": "\"200-663-8\"",
+          "iD_EG_Annex_Nr": "\"NAV\"",
+          "source": "\"Mixed\"",
+          "name": "\"chloroform\"",
+          "casNumber": "\"67-66-3\"",
+          "features": [
+            {
+              "name": "Boiling_Point__(øC)",
+              "value": 61.1
+            },
+            {
+              "name": "Melting_Point__(øC)",
+              "value": -63.6
+            },
+            {
+              "name": "Vapour_Pressure_(25øC_mmHg)",
+              "value": 197.0112017
+            },
+            {
+              "name": "Flash_Point__(øC)",
+              "value": 31.05
+            },
+            {
+              "name": "Autoignition_Temperature__(øC)",
+              "value": 624.0
+            },
+            {
+              "name": "Hansen_Delta_D_(MPa1_2)",
+              "value": 17.8
+            },
+            {
+              "name": "Hansen_Delta_P_(MPa1_2)",
+              "value": 3.1
+            },
+            {
+              "name": "Hansen_Delta_H_(MPa1_2)",
+              "value": 5.7
+            },
+            {
+              "name": "Solubility_Water_(20_øC_g_L)",
+              "value": 7.95
+            },
+            {
+              "name": "Density_(25øC__kg_L)",
+              "value": 1.48
+            },
+            {
+              "name": "Viscosity_(25øC__mPa_s)",
+              "value": 0.54
+            },
+            {
+              "name": "Relative_Vapour_Density__(Air=1)",
+              "value": 4.12
+            },
+            {
+              "name": "Log_P_Octanol_Water_(20øC)",
+              "value": 1.97
+            },
+            {
+              "name": "Refractive_Index_(20øC)",
+              "value": 1.446
+            },
+            {
+              "name": "Surface_Tension_(25øC_mN_m)",
+              "value": 26.67
+            }
+          ],
+          "distanceToCluster": 361.66227019094913,
+          "ehs_S_SCORE": "\"2\"",
+          "ehs_H_SCORE": "\"7\"",
+          "ehs_E_SCORE": "\"5\"",
+          "ehs_COLOR_CODE": "\"FF6347\""
+        },
+        {
+          "iD_Name": "\"Carbon_tetrachloride\"",
+          "iD_CAS_Nr": "\"56-23-5\"",
+          "iD_EG_Nr": "\"NAV\"",
+          "iD_EG_Annex_Nr": "\"NAV\"",
+          "source": "\"Mixed\"",
+          "name": "\"Carbon_tetrachloride\"",
+          "casNumber": "\"56-23-5\"",
+          "features": [
+            {
+              "name": "Boiling_Point__(øC)",
+              "value": 76.8
+            },
+            {
+              "name": "Melting_Point__(øC)",
+              "value": -23.0
+            },
+            {
+              "name": "Vapour_Pressure_(25øC_mmHg)",
+              "value": 114.7594375
+            },
+            {
+              "name": "Flash_Point__(øC)",
+              "value": 23.2
+            },
+            {
+              "name": "Autoignition_Temperature__(øC)",
+              "value": 982.0
+            },
+            {
+              "name": "Hansen_Delta_D_(MPa1_2)",
+              "value": 17.8
+            },
+            {
+              "name": "Hansen_Delta_P_(MPa1_2)",
+              "value": 0.0
+            },
+            {
+              "name": "Hansen_Delta_H_(MPa1_2)",
+              "value": 0.6
+            },
+            {
+              "name": "Solubility_Water_(20_øC_g_L)",
+              "value": 0.7934
+            },
+            {
+              "name": "Density_(25øC__kg_L)",
+              "value": 1.7
+            },
+            {
+              "name": "Viscosity_(25øC__mPa_s)",
+              "value": 0.91
+            },
+            {
+              "name": "Relative_Vapour_Density__(Air=1)",
+              "value": 5.3
+            },
+            {
+              "name": "Log_P_Octanol_Water_(20øC)",
+              "value": 2.83
+            },
+            {
+              "name": "Refractive_Index_(20øC)",
+              "value": 1.457
+            },
+            {
+              "name": "Surface_Tension_(25øC_mN_m)",
+              "value": 26.43
+            }
+          ],
+          "distanceToCluster": 642.17982598618858,
+          "ehs_S_SCORE": "\"2\"",
+          "ehs_H_SCORE": "\"7\"",
+          "ehs_E_SCORE": "\"10\"",
+          "ehs_COLOR_CODE": "\"FF6347\""
+        },
+        {
+          "iD_Name": "\"1.1.1-trichloroethane\"",
+          "iD_CAS_Nr": "\"71-55-6\"",
+          "iD_EG_Nr": "\"NAV\"",
+          "iD_EG_Annex_Nr": "\"NAV\"",
+          "source": "\"Mixed\"",
+          "name": "\"1.1.1-trichloroethane\"",
+          "casNumber": "\"71-55-6\"",
+          "features": [
+            {
+              "name": "Boiling_Point__(øC)",
+              "value": 74.0
+            },
+            {
+              "name": "Melting_Point__(øC)",
+              "value": -30.4
+            },
+            {
+              "name": "Vapour_Pressure_(25øC_mmHg)",
+              "value": 12.37601777
+            },
+            {
+              "name": "Flash_Point__(øC)",
+              "value": 0.61
+            },
+            {
+              "name": "Autoignition_Temperature__(øC)",
+              "value": 537.0
+            },
+            {
+              "name": "Hansen_Delta_D_(MPa1_2)",
+              "value": 16.8
+            },
+            {
+              "name": "Hansen_Delta_P_(MPa1_2)",
+              "value": 4.3
+            },
+            {
+              "name": "Hansen_Delta_H_(MPa1_2)",
+              "value": 2.0
+            },
+            {
+              "name": "Solubility_Water_(20_øC_g_L)",
+              "value": 1.495
+            },
+            {
+              "name": "Density_(25øC__kg_L)",
+              "value": 1.34
+            },
+            {
+              "name": "Viscosity_(25øC__mPa_s)",
+              "value": 0.79
+            },
+            {
+              "name": "Relative_Vapour_Density__(Air=1)",
+              "value": 4.55
+            },
+            {
+              "name": "Log_P_Octanol_Water_(20øC)",
+              "value": 2.17
+            },
+            {
+              "name": "Refractive_Index_(20øC)",
+              "value": 1.437
+            },
+            {
+              "name": "Surface_Tension_(25øC_mN_m)",
+              "value": 25.18
+            }
+          ],
+          "distanceToCluster": 290.28065106890375,
+          "ehs_S_SCORE": "\"4\"",
+          "ehs_H_SCORE": "\"3\"",
+          "ehs_E_SCORE": "\"10\"",
+          "ehs_COLOR_CODE": "\"FF6347\""
+        },
+        {
+          "iD_Name": "\"1.1.2-trichloroethane\"",
+          "iD_CAS_Nr": "\"79-00-5\"",
+          "iD_EG_Nr": "\"NAV\"",
+          "iD_EG_Annex_Nr": "\"NAV\"",
+          "source": "\"Mixed\"",
+          "name": "\"1.1.2-trichloroethane\"",
+          "casNumber": "\"79-00-5\"",
+          "features": [
+            {
+              "name": "Boiling_Point__(øC)",
+              "value": 113.8
+            },
+            {
+              "name": "Melting_Point__(øC)",
+              "value": -36.6
+            },
+            {
+              "name": "Vapour_Pressure_(25øC_mmHg)",
+              "value": 23.02689367
+            },
+            {
+              "name": "Flash_Point__(øC)",
+              "value": 31.03
+            },
+            {
+              "name": "Autoignition_Temperature__(øC)",
+              "value": 459.0
+            },
+            {
+              "name": "Hansen_Delta_D_(MPa1_2)",
+              "value": 18.2
+            },
+            {
+              "name": "Hansen_Delta_P_(MPa1_2)",
+              "value": 5.3
+            },
+            {
+              "name": "Hansen_Delta_H_(MPa1_2)",
+              "value": 6.8
+            },
+            {
+              "name": "Solubility_Water_(20_øC_g_L)",
+              "value": 4.0
+            },
+            {
+              "name": "Density_(25øC__kg_L)",
+              "value": 1.44
+            },
+            {
+              "name": "Viscosity_(25øC__mPa_s)",
+              "value": 0.92
+            },
+            {
+              "name": "Relative_Vapour_Density__(Air=1)",
+              "value": 4.6
+            },
+            {
+              "name": "Log_P_Octanol_Water_(20øC)",
+              "value": 2.05
+            },
+            {
+              "name": "Refractive_Index_(20øC)",
+              "value": 1.468
+            },
+            {
+              "name": "Surface_Tension_(25øC_mN_m)",
+              "value": 34.02
+            }
+          ],
+          "distanceToCluster": 250.15640646312417,
+          "ehs_S_SCORE": "\"3\"",
+          "ehs_H_SCORE": "\"9\"",
+          "ehs_E_SCORE": "\"5\"",
+          "ehs_COLOR_CODE": "\"FF6347\""
+        },
+        {
+          "iD_Name": "\"trichloroethene\"",
+          "iD_CAS_Nr": "\"79-01-6\"",
+          "iD_EG_Nr": "\"NAV\"",
+          "iD_EG_Annex_Nr": "\"NAV\"",
+          "source": "\"Mixed\"",
+          "name": "\"trichloroethene\"",
+          "casNumber": "\"79-01-6\"",
+          "features": [
+            {
+              "name": "Boiling_Point__(øC)",
+              "value": 87.2
+            },
+            {
+              "name": "Melting_Point__(øC)",
+              "value": -84.7
+            },
+            {
+              "name": "Vapour_Pressure_(25øC_mmHg)",
+              "value": 69.00567484
+            },
+            {
+              "name": "Flash_Point__(øC)",
+              "value": 12.1
+            },
+            {
+              "name": "Autoignition_Temperature__(øC)",
+              "value": 410.0
+            },
+            {
+              "name": "Hansen_Delta_D_(MPa1_2)",
+              "value": 18.0
+            },
+            {
+              "name": "Hansen_Delta_P_(MPa1_2)",
+              "value": 3.1
+            },
+            {
+              "name": "Hansen_Delta_H_(MPa1_2)",
+              "value": 5.3
+            },
+            {
+              "name": "Solubility_Water_(20_øC_g_L)",
+              "value": 1.099
+            },
+            {
+              "name": "Density_(25øC__kg_L)",
+              "value": 1.46
+            },
+            {
+              "name": "Viscosity_(25øC__mPa_s)",
+              "value": 0.53
+            },
+            {
+              "name": "Relative_Vapour_Density__(Air=1)",
+              "value": 4.5
+            },
+            {
+              "name": "Log_P_Octanol_Water_(20øC)",
+              "value": 2.29
+            },
+            {
+              "name": "Refractive_Index_(20øC)",
+              "value": 1.475
+            },
+            {
+              "name": "Surface_Tension_(25øC_mN_m)",
+              "value": 27.000851
+            }
+          ],
+          "distanceToCluster": 243.07018492255611,
+          "ehs_S_SCORE": "\"7\"",
+          "ehs_H_SCORE": "\"10\"",
+          "ehs_E_SCORE": "\"7\"",
+          "ehs_COLOR_CODE": "\"FF6347\""
+        },
+        {
+          "iD_Name": "\"1.1-dichloroethene\"",
+          "iD_CAS_Nr": "\"75-35-4\"",
+          "iD_EG_Nr": "\"NAV\"",
+          "iD_EG_Annex_Nr": "\"NAV\"",
+          "source": "\"Mixed\"",
+          "name": "\"1.1-dichloroethene\"",
+          "casNumber": "\"75-35-4\"",
+          "features": [
+            {
+              "name": "Boiling_Point__(øC)",
+              "value": 31.6
+            },
+            {
+              "name": "Melting_Point__(øC)",
+              "value": -122.5
+            },
+            {
+              "name": "Vapour_Pressure_(25øC_mmHg)",
+              "value": 60.00493464
+            },
+            {
+              "name": "Flash_Point__(øC)",
+              "value": -25.0
+            },
+            {
+              "name": "Autoignition_Temperature__(øC)",
+              "value": 520.0
+            },
+            {
+              "name": "Hansen_Delta_D_(MPa1_2)",
+              "value": 16.4
+            },
+            {
+              "name": "Hansen_Delta_P_(MPa1_2)",
+              "value": 5.2
+            },
+            {
+              "name": "Hansen_Delta_H_(MPa1_2)",
+              "value": 2.4
+            },
+            {
+              "name": "Solubility_Water_(20_øC_g_L)",
+              "value": 2.5
+            },
+            {
+              "name": "Density_(25øC__kg_L)",
+              "value": 1.21
+            },
+            {
+              "name": "Viscosity_(25øC__mPa_s)",
+              "value": 0.35
+            },
+            {
+              "name": "Relative_Vapour_Density__(Air=1)",
+              "value": 3.4
+            },
+            {
+              "name": "Log_P_Octanol_Water_(20øC)",
+              "value": 2.02
+            },
+            {
+              "name": "Refractive_Index_(20øC)",
+              "value": 1.42468
+            },
+            {
+              "name": "Surface_Tension_(25øC_mN_m)",
+              "value": 22.388186
+            }
+          ],
+          "distanceToCluster": 293.14688050612659,
+          "ehs_S_SCORE": "\"5\"",
+          "ehs_H_SCORE": "\"10\"",
+          "ehs_E_SCORE": "\"7\"",
+          "ehs_COLOR_CODE": "\"FF6347\""
+        },
+        {
+          "iD_Name": "\"trans-1.2-dichloroethene\"",
+          "iD_CAS_Nr": "\"156-60-5\"",
+          "iD_EG_Nr": "\"NAV\"",
+          "iD_EG_Annex_Nr": "\"NAV\"",
+          "source": "\"Mixed\"",
+          "name": "\"trans-1.2-dichloroethene\"",
+          "casNumber": "\"156-60-5\"",
+          "features": [
+            {
+              "name": "Boiling_Point__(øC)",
+              "value": 48.0
+            },
+            {
+              "name": "Melting_Point__(øC)",
+              "value": -57.0
+            },
+            {
+              "name": "Vapour_Pressure_(25øC_mmHg)",
+              "value": 400.0
+            },
+            {
+              "name": "Flash_Point__(øC)",
+              "value": 6.0
+            },
+            {
+              "name": "Autoignition_Temperature__(øC)",
+              "value": 460.0
+            },
+            {
+              "name": "Hansen_Delta_D_(MPa1_2)",
+              "value": 16.7
+            },
+            {
+              "name": "Hansen_Delta_P_(MPa1_2)",
+              "value": 7.8
+            },
+            {
+              "name": "Hansen_Delta_H_(MPa1_2)",
+              "value": 3.3
+            },
+            {
+              "name": "Solubility_Water_(20_øC_g_L)",
+              "value": 5.3
+            },
+            {
+              "name": "Density_(25øC__kg_L)",
+              "value": 1.257
+            },
+            {
+              "name": "Viscosity_(25øC__mPa_s)",
+              "value": 0.41
+            },
+            {
+              "name": "Relative_Vapour_Density__(Air=1)",
+              "value": 3.34
+            },
+            {
+              "name": "Log_P_Octanol_Water_(20øC)",
+              "value": 2.06
+            },
+            {
+              "name": "Refractive_Index_(20øC)",
+              "value": 1.446
+            },
+            {
+              "name": "Surface_Tension_(25øC_mN_m)",
+              "value": 25.0
+            }
+          ],
+          "distanceToCluster": 428.54832148662064,
+          "ehs_S_SCORE": "\"5\"",
+          "ehs_H_SCORE": "\"3\"",
+          "ehs_E_SCORE": "\"5\"",
+          "ehs_COLOR_CODE": "\"FFD700\""
+        },
+        {
+          "iD_Name": "\"cis-1.2-dichloroethene\"",
+          "iD_CAS_Nr": "\"156-59-2\"",
+          "iD_EG_Nr": "\"NAV\"",
+          "iD_EG_Annex_Nr": "\"NAV\"",
+          "source": "\"Mixed\"",
+          "name": "\"cis-1.2-dichloroethene\"",
+          "casNumber": "\"156-59-2\"",
+          "features": [
+            {
+              "name": "Boiling_Point__(øC)",
+              "value": 60.0
+            },
+            {
+              "name": "Melting_Point__(øC)",
+              "value": -80.0
+            },
+            {
+              "name": "Vapour_Pressure_(25øC_mmHg)",
+              "value": 200.0
+            },
+            {
+              "name": "Flash_Point__(øC)",
+              "value": 6.0
+            },
+            {
+              "name": "Autoignition_Temperature__(øC)",
+              "value": 460.0
+            },
+            {
+              "name": "Hansen_Delta_D_(MPa1_2)",
+              "value": 17.0
+            },
+            {
+              "name": "Hansen_Delta_P_(MPa1_2)",
+              "value": 8.0
+            },
+            {
+              "name": "Hansen_Delta_H_(MPa1_2)",
+              "value": 3.2
+            },
+            {
+              "name": "Solubility_Water_(20_øC_g_L)",
+              "value": 7.6
+            },
+            {
+              "name": "Density_(25øC__kg_L)",
+              "value": 1.284
+            },
+            {
+              "name": "Viscosity_(25øC__mPa_s)",
+              "value": 0.48
+            },
+            {
+              "name": "Relative_Vapour_Density__(Air=1)",
+              "value": 3.34
+            },
+            {
+              "name": "Log_P_Octanol_Water_(20øC)",
+              "value": 1.86
+            },
+            {
+              "name": "Refractive_Index_(20øC)",
+              "value": 1.449
+            },
+            {
+              "name": "Surface_Tension_(25øC_mN_m)",
+              "value": 28.0
+            }
+          ],
+          "distanceToCluster": 288.79772078567379,
+          "ehs_S_SCORE": "\"5\"",
+          "ehs_H_SCORE": "\"3\"",
+          "ehs_E_SCORE": "\"5\"",
+          "ehs_COLOR_CODE": "\"FFD700\""
+        },
+        {
+          "iD_Name": "\"1.1-dichloroethane\"",
+          "iD_CAS_Nr": "\"75-34-3\"",
+          "iD_EG_Nr": "\"NAV\"",
+          "iD_EG_Annex_Nr": "\"NAV\"",
+          "source": "\"Mixed\"",
+          "name": "\"1.1-dichloroethane\"",
+          "casNumber": "\"75-34-3\"",
+          "features": [
+            {
+              "name": "Boiling_Point__(øC)",
+              "value": 57.4
+            },
+            {
+              "name": "Melting_Point__(øC)",
+              "value": -96.9
+            },
+            {
+              "name": "Vapour_Pressure_(25øC_mmHg)",
+              "value": 22.72686899
+            },
+            {
+              "name": "Flash_Point__(øC)",
+              "value": -10.0
+            },
+            {
+              "name": "Autoignition_Temperature__(øC)",
+              "value": 458.0
+            },
+            {
+              "name": "Hansen_Delta_D_(MPa1_2)",
+              "value": 16.5
+            },
+            {
+              "name": "Hansen_Delta_P_(MPa1_2)",
+              "value": 7.8
+            },
+            {
+              "name": "Hansen_Delta_H_(MPa1_2)",
+              "value": 3.0
+            },
+            {
+              "name": "Solubility_Water_(20_øC_g_L)",
+              "value": 5.0
+            },
+            {
+              "name": "Density_(25øC__kg_L)",
+              "value": 1.17
+            },
+            {
+              "name": "Viscosity_(25øC__mPa_s)",
+              "value": 0.46
+            },
+            {
+              "name": "Relative_Vapour_Density__(Air=1)",
+              "value": 3.44
+            },
+            {
+              "name": "Log_P_Octanol_Water_(20øC)",
+              "value": 1.79
+            },
+            {
+              "name": "Refractive_Index_(20øC)",
+              "value": 1.413
+            },
+            {
+              "name": "Surface_Tension_(25øC_mN_m)",
+              "value": 24.06
+            }
+          ],
+          "distanceToCluster": 258.24074088575907,
+          "ehs_S_SCORE": "\"5\"",
+          "ehs_H_SCORE": "\"3\"",
+          "ehs_E_SCORE": "\"5\"",
+          "ehs_COLOR_CODE": "\"FFD700\""
+        },
+        {
+          "iD_Name": "\"dichloroethane\"",
+          "iD_CAS_Nr": "\"107-06-2\"",
+          "iD_EG_Nr": "\"NAV\"",
+          "iD_EG_Annex_Nr": "\"NAV\"",
+          "source": "\"Mixed\"",
+          "name": "\"dichloroethane\"",
+          "casNumber": "\"107-06-2\"",
+          "features": [
+            {
+              "name": "Boiling_Point__(øC)",
+              "value": 83.5
+            },
+            {
+              "name": "Melting_Point__(øC)",
+              "value": -35.5
+            },
+            {
+              "name": "Vapour_Pressure_(25øC_mmHg)",
+              "value": 7.875647672
+            },
+            {
+              "name": "Flash_Point__(øC)",
+              "value": 15.6
+            },
+            {
+              "name": "Autoignition_Temperature__(øC)",
+              "value": 440.0
+            },
+            {
+              "name": "Hansen_Delta_D_(MPa1_2)",
+              "value": 18.0
+            },
+            {
+              "name": "Hansen_Delta_P_(MPa1_2)",
+              "value": 7.4
+            },
+            {
+              "name": "Hansen_Delta_H_(MPa1_2)",
+              "value": 4.1
+            },
+            {
+              "name": "Solubility_Water_(20_øC_g_L)",
+              "value": 8.7
+            },
+            {
+              "name": "Density_(25øC__kg_L)",
+              "value": 1.17
+            },
+            {
+              "name": "Viscosity_(25øC__mPa_s)",
+              "value": 0.78
+            },
+            {
+              "name": "Relative_Vapour_Density__(Air=1)",
+              "value": 3.4
+            },
+            {
+              "name": "Log_P_Octanol_Water_(20øC)",
+              "value": 1.45
+            },
+            {
+              "name": "Refractive_Index_(20øC)",
+              "value": 1.445
+            },
+            {
+              "name": "Surface_Tension_(25øC_mN_m)",
+              "value": 31.86
+            }
+          ],
+          "distanceToCluster": 246.87841142583199,
+          "ehs_S_SCORE": "\"4\"",
+          "ehs_H_SCORE": "\"10\"",
+          "ehs_E_SCORE": "\"3\"",
+          "ehs_COLOR_CODE": "\"FF6347\""
+        },
+        {
+          "iD_Name": "\"butyric_acid\"",
+          "iD_CAS_Nr": "\"107-92-6\"",
+          "iD_EG_Nr": "\"NAV\"",
+          "iD_EG_Annex_Nr": "\"NAV\"",
+          "source": "\"Mixed\"",
+          "name": "\"butyric_acid\"",
+          "casNumber": "\"107-92-6\"",
+          "features": [
+            {
+              "name": "Boiling_Point__(øC)",
+              "value": 163.7
+            },
+            {
+              "name": "Melting_Point__(øC)",
+              "value": -5.7
+            },
+            {
+              "name": "Vapour_Pressure_(25øC_mmHg)",
+              "value": 1.650135703
+            },
+            {
+              "name": "Flash_Point__(øC)",
+              "value": 69.0
+            },
+            {
+              "name": "Autoignition_Temperature__(øC)",
+              "value": 425.0
+            },
+            {
+              "name": "Hansen_Delta_D_(MPa1_2)",
+              "value": 15.7
+            },
+            {
+              "name": "Hansen_Delta_P_(MPa1_2)",
+              "value": 4.8
+            },
+            {
+              "name": "Hansen_Delta_H_(MPa1_2)",
+              "value": 12.0
+            },
+            {
+              "name": "Solubility_Water_(20_øC_g_L)",
+              "value": 56.2
+            },
+            {
+              "name": "Density_(25øC__kg_L)",
+              "value": 0.99
+            },
+            {
+              "name": "Viscosity_(25øC__mPa_s)",
+              "value": 1.43
+            },
+            {
+              "name": "Relative_Vapour_Density__(Air=1)",
+              "value": 3.0
+            },
+            {
+              "name": "Log_P_Octanol_Water_(20øC)",
+              "value": 1.1
+            },
+            {
+              "name": "Refractive_Index_(20øC)",
+              "value": 1.3979
+            },
+            {
+              "name": "Surface_Tension_(25øC_mN_m)",
+              "value": 26.05
+            }
+          ],
+          "distanceToCluster": 214.03278408824005,
+          "ehs_S_SCORE": "\"1\"",
+          "ehs_H_SCORE": "\"7\"",
+          "ehs_E_SCORE": "\"5\"",
+          "ehs_COLOR_CODE": "\"FFD700\""
+        },
+        {
+          "iD_Name": "\"isobutyric_acid\"",
+          "iD_CAS_Nr": "\"79-31-2\"",
+          "iD_EG_Nr": "\"NAV\"",
+          "iD_EG_Annex_Nr": "\"NAV\"",
+          "source": "\"Mixed\"",
+          "name": "\"isobutyric_acid\"",
+          "casNumber": "\"79-31-2\"",
+          "features": [
+            {
+              "name": "Boiling_Point__(øC)",
+              "value": 154.4
+            },
+            {
+              "name": "Melting_Point__(øC)",
+              "value": -46.0
+            },
+            {
+              "name": "Vapour_Pressure_(25øC_mmHg)",
+              "value": 1.807648656
+            },
+            {
+              "name": "Flash_Point__(øC)",
+              "value": 58.2
+            },
+            {
+              "name": "Autoignition_Temperature__(øC)",
+              "value": 440.0
+            },
+            {
+              "name": "Hansen_Delta_D_(MPa1_2)",
+              "value": 15.7
+            },
+            {
+              "name": "Hansen_Delta_P_(MPa1_2)",
+              "value": 5.4
+            },
+            {
+              "name": "Hansen_Delta_H_(MPa1_2)",
+              "value": 10.5
+            },
+            {
+              "name": "Solubility_Water_(20_øC_g_L)",
+              "value": 210.0
+            },
+            {
+              "name": "Density_(25øC__kg_L)",
+              "value": 0.98
+            },
+            {
+              "name": "Viscosity_(25øC__mPa_s)",
+              "value": 1.23
+            },
+            {
+              "name": "Relative_Vapour_Density__(Air=1)",
+              "value": 3.04
+            },
+            {
+              "name": "Log_P_Octanol_Water_(20øC)",
+              "value": 0.88
+            },
+            {
+              "name": "Refractive_Index_(20øC)",
+              "value": 1.39
+            },
+            {
+              "name": "Surface_Tension_(25øC_mN_m)",
+              "value": 24.58
+            }
+          ],
+          "distanceToCluster": 94.371883363880031,
+          "ehs_S_SCORE": "\"3\"",
+          "ehs_H_SCORE": "\"2\"",
+          "ehs_E_SCORE": "\"5\"",
+          "ehs_COLOR_CODE": "\"9ACD32\""
+        },
+        {
+          "iD_Name": "\"Acetic_acid\"",
+          "iD_CAS_Nr": "\"64-19-7\"",
+          "iD_EG_Nr": "\"NAV\"",
+          "iD_EG_Annex_Nr": "\"NAV\"",
+          "source": "\"Mixed\"",
+          "name": "\"Acetic_acid\"",
+          "casNumber": "\"64-19-7\"",
+          "features": [
+            {
+              "name": "Boiling_Point__(øC)",
+              "value": 117.9
+            },
+            {
+              "name": "Melting_Point__(øC)",
+              "value": 16.6
+            },
+            {
+              "name": "Vapour_Pressure_(25øC_mmHg)",
+              "value": 15.67628917
+            },
+            {
+              "name": "Flash_Point__(øC)",
+              "value": 40.0
+            },
+            {
+              "name": "Autoignition_Temperature__(øC)",
+              "value": 427.0
+            },
+            {
+              "name": "Hansen_Delta_D_(MPa1_2)",
+              "value": 14.5
+            },
+            {
+              "name": "Hansen_Delta_P_(MPa1_2)",
+              "value": 8.0
+            },
+            {
+              "name": "Hansen_Delta_H_(MPa1_2)",
+              "value": 13.57
+            },
+            {
+              "name": "Solubility_Water_(20_øC_g_L)",
+              "value": 602.9
+            },
+            {
+              "name": "Density_(25øC__kg_L)",
+              "value": 1.07
+            },
+            {
+              "name": "Viscosity_(25øC__mPa_s)",
+              "value": 1.05
+            },
+            {
+              "name": "Relative_Vapour_Density__(Air=1)",
+              "value": 2.1
+            },
+            {
+              "name": "Log_P_Octanol_Water_(20øC)",
+              "value": -0.2
+            },
+            {
+              "name": "Refractive_Index_(20øC)",
+              "value": 1.3661377
+            },
+            {
+              "name": "Surface_Tension_(25øC_mN_m)",
+              "value": 27.1
+            }
+          ],
+          "distanceToCluster": 377.43060366611013,
+          "ehs_S_SCORE": "\"3\"",
+          "ehs_H_SCORE": "\"7\"",
+          "ehs_E_SCORE": "\"3\"",
+          "ehs_COLOR_CODE": "\"FFD700\""
+        },
+        {
+          "iD_Name": "\"propionic_acid\"",
+          "iD_CAS_Nr": "\"79-09-4\"",
+          "iD_EG_Nr": "\"NAV\"",
+          "iD_EG_Annex_Nr": "\"NAV\"",
+          "source": "\"Mixed\"",
+          "name": "\"propionic_acid\"",
+          "casNumber": "\"79-09-4\"",
+          "features": [
+            {
+              "name": "Boiling_Point__(øC)",
+              "value": 141.1
+            },
+            {
+              "name": "Melting_Point__(øC)",
+              "value": -20.7
+            },
+            {
+              "name": "Vapour_Pressure_(25øC_mmHg)",
+              "value": 3.532790527
+            },
+            {
+              "name": "Flash_Point__(øC)",
+              "value": 57.7
+            },
+            {
+              "name": "Autoignition_Temperature__(øC)",
+              "value": 485.0
+            },
+            {
+              "name": "Hansen_Delta_D_(MPa1_2)",
+              "value": 14.7
+            },
+            {
+              "name": "Hansen_Delta_P_(MPa1_2)",
+              "value": 5.3
+            },
+            {
+              "name": "Hansen_Delta_H_(MPa1_2)",
+              "value": 12.4
+            },
+            {
+              "name": "Solubility_Water_(20_øC_g_L)",
+              "value": 1000.0
+            },
+            {
+              "name": "Density_(25øC__kg_L)",
+              "value": 1.02
+            },
+            {
+              "name": "Viscosity_(25øC__mPa_s)",
+              "value": 1.03
+            },
+            {
+              "name": "Relative_Vapour_Density__(Air=1)",
+              "value": 2.56
+            },
+            {
+              "name": "Log_P_Octanol_Water_(20øC)",
+              "value": 0.33
+            },
+            {
+              "name": "Refractive_Index_(20øC)",
+              "value": 1.385
+            },
+            {
+              "name": "Surface_Tension_(25øC_mN_m)",
+              "value": 26.2
+            }
+          ],
+          "distanceToCluster": 769.93222254923808,
+          "ehs_S_SCORE": "\"3\"",
+          "ehs_H_SCORE": "\"7\"",
+          "ehs_E_SCORE": "\"5\"",
+          "ehs_COLOR_CODE": "\"FFD700\""
+        },
+        {
+          "iD_Name": "\"D-limonene_(+)_©\"",
+          "iD_CAS_Nr": "\"5989-27-5\"",
+          "iD_EG_Nr": "\"NAV\"",
+          "iD_EG_Annex_Nr": "\"NAV\"",
+          "source": "\"Mixed\"",
+          "name": "\"D-limonene_(+)_©\"",
+          "casNumber": "\"5989-27-5\"",
+          "features": [
+            {
+              "name": "Boiling_Point__(øC)",
+              "value": 176.0
+            },
+            {
+              "name": "Melting_Point__(øC)",
+              "value": -75.0
+            },
+            {
+              "name": "Vapour_Pressure_(25øC_mmHg)",
+              "value": 1.98
+            },
+            {
+              "name": "Flash_Point__(øC)",
+              "value": 50.0
+            },
+            {
+              "name": "Autoignition_Temperature__(øC)",
+              "value": 237.0
+            },
+            {
+              "name": "Hansen_Delta_D_(MPa1_2)",
+              "value": 16.5
+            },
+            {
+              "name": "Hansen_Delta_P_(MPa1_2)",
+              "value": 0.6
+            },
+            {
+              "name": "Hansen_Delta_H_(MPa1_2)",
+              "value": 0.0
+            },
+            {
+              "name": "Solubility_Water_(20_øC_g_L)",
+              "value": 0.0138
+            },
+            {
+              "name": "Density_(25øC__kg_L)",
+              "value": 0.84
+            },
+            {
+              "name": "Viscosity_(25øC__mPa_s)",
+              "value": 0.923
+            },
+            {
+              "name": "Relative_Vapour_Density__(Air=1)",
+              "value": 4.7
+            },
+            {
+              "name": "Log_P_Octanol_Water_(20øC)",
+              "value": 4.57
+            },
+            {
+              "name": "Refractive_Index_(20øC)",
+              "value": 1.47
+            },
+            {
+              "name": "Surface_Tension_(25øC_mN_m)",
+              "value": 26.0
+            }
+          ],
+          "distanceToCluster": 297.48507083926074,
+          "ehs_S_SCORE": "\"4\"",
+          "ehs_H_SCORE": "\"2\"",
+          "ehs_E_SCORE": "\"7\"",
+          "ehs_COLOR_CODE": "\"FFD700\""
+        },
+        {
+          "iD_Name": "\"Orange_Terpene\"",
+          "iD_CAS_Nr": "\"8028-48-6\"",
+          "iD_EG_Nr": "\"NAV\"",
+          "iD_EG_Annex_Nr": "\"NAV\"",
+          "source": "\"Mixed\"",
+          "name": "\"Orange_Terpene\"",
+          "casNumber": "\"8028-48-6\"",
+          "features": [
+            {
+              "name": "Boiling_Point__(øC)",
+              "value": 176.5
+            },
+            {
+              "name": "Melting_Point__(øC)",
+              "value": -75.0
+            },
+            {
+              "name": "Vapour_Pressure_(25øC_mmHg)",
+              "value": 1.4
+            },
+            {
+              "name": "Flash_Point__(øC)",
+              "value": 53.4
+            },
+            {
+              "name": "Autoignition_Temperature__(øC)",
+              "value": 235.0
+            },
+            {
+              "name": "Hansen_Delta_D_(MPa1_2)",
+              "value": 16.5
+            },
+            {
+              "name": "Hansen_Delta_P_(MPa1_2)",
+              "value": 0.6
+            },
+            {
+              "name": "Hansen_Delta_H_(MPa1_2)",
+              "value": 0.0
+            },
+            {
+              "name": "Solubility_Water_(20_øC_g_L)",
+              "value": 1.76
+            },
+            {
+              "name": "Density_(25øC__kg_L)",
+              "value": 0.846
+            },
+            {
+              "name": "Viscosity_(25øC__mPa_s)",
+              "value": 0.99
+            },
+            {
+              "name": "Relative_Vapour_Density__(Air=1)",
+              "value": 4.7
+            },
+            {
+              "name": "Log_P_Octanol_Water_(20øC)",
+              "value": 4.38
+            },
+            {
+              "name": "Refractive_Index_(20øC)",
+              "value": 1.47
+            },
+            {
+              "name": "Surface_Tension_(25øC_mN_m)",
+              "value": 26.0
+            }
+          ],
+          "distanceToCluster": 297.61117772691273,
+          "ehs_S_SCORE": "\"3\"",
+          "ehs_H_SCORE": "\"2\"",
+          "ehs_E_SCORE": "\"7\"",
+          "ehs_COLOR_CODE": "\"FFD700\""
+        },
+        {
+          "iD_Name": "\"Dipentene\"",
+          "iD_CAS_Nr": "\"138-86-3\"",
+          "iD_EG_Nr": "\"NAV\"",
+          "iD_EG_Annex_Nr": "\"NAV\"",
+          "source": "\"Mixed\"",
+          "name": "\"Dipentene\"",
+          "casNumber": "\"138-86-3\"",
+          "features": [
+            {
+              "name": "Boiling_Point__(øC)",
+              "value": 175.0
+            },
+            {
+              "name": "Melting_Point__(øC)",
+              "value": -95.5
+            },
+            {
+              "name": "Vapour_Pressure_(25øC_mmHg)",
+              "value": 1.58
+            },
+            {
+              "name": "Flash_Point__(øC)",
+              "value": 45.0
+            },
+            {
+              "name": "Autoignition_Temperature__(øC)",
+              "value": 255.0
+            },
+            {
+              "name": "Hansen_Delta_D_(MPa1_2)",
+              "value": 17.2
+            },
+            {
+              "name": "Hansen_Delta_P_(MPa1_2)",
+              "value": 1.8
+            },
+            {
+              "name": "Hansen_Delta_H_(MPa1_2)",
+              "value": 4.3
+            },
+            {
+              "name": "Solubility_Water_(20_øC_g_L)",
+              "value": 0.0
+            },
+            {
+              "name": "Density_(25øC__kg_L)",
+              "value": 0.86
+            },
+            {
+              "name": "Viscosity_(25øC__mPa_s)",
+              "value": 0.923
+            },
+            {
+              "name": "Relative_Vapour_Density__(Air=1)",
+              "value": 4.7
+            },
+            {
+              "name": "Log_P_Octanol_Water_(20øC)",
+              "value": 4.57
+            },
+            {
+              "name": "Refractive_Index_(20øC)",
+              "value": 1.47
+            },
+            {
+              "name": "Surface_Tension_(25øC_mN_m)",
+              "value": 26.0
+            }
+          ],
+          "distanceToCluster": 288.92878571198128,
+          "ehs_S_SCORE": "\"3\"",
+          "ehs_H_SCORE": "\"2\"",
+          "ehs_E_SCORE": "\"7\"",
+          "ehs_COLOR_CODE": "\"FFD700\""
+        },
+        {
+          "iD_Name": "\"butylglycol\"",
+          "iD_CAS_Nr": "\"111-76-2\"",
+          "iD_EG_Nr": "\"203-905-0\"",
+          "iD_EG_Annex_Nr": "\"NAV\"",
+          "source": "\"Mixed\"",
+          "name": "\"butylglycol\"",
+          "casNumber": "\"111-76-2\"",
+          "features": [
+            {
+              "name": "Boiling_Point__(øC)",
+              "value": 168.4
+            },
+            {
+              "name": "Melting_Point__(øC)",
+              "value": -74.8
+            },
+            {
+              "name": "Vapour_Pressure_(25øC_mmHg)",
+              "value": 0.877572169
+            },
+            {
+              "name": "Flash_Point__(øC)",
+              "value": 60.0
+            },
+            {
+              "name": "Autoignition_Temperature__(øC)",
+              "value": 230.0
+            },
+            {
+              "name": "Hansen_Delta_D_(MPa1_2)",
+              "value": 16.0
+            },
+            {
+              "name": "Hansen_Delta_P_(MPa1_2)",
+              "value": 5.1
+            },
+            {
+              "name": "Hansen_Delta_H_(MPa1_2)",
+              "value": 12.3
+            },
+            {
+              "name": "Solubility_Water_(20_øC_g_L)",
+              "value": 1000.0
+            },
+            {
+              "name": "Density_(25øC__kg_L)",
+              "value": 0.896
+            },
+            {
+              "name": "Viscosity_(25øC__mPa_s)",
+              "value": 3.15
+            },
+            {
+              "name": "Relative_Vapour_Density__(Air=1)",
+              "value": 4.1
+            },
+            {
+              "name": "Log_P_Octanol_Water_(20øC)",
+              "value": 0.81
+            },
+            {
+              "name": "Refractive_Index_(20øC)",
+              "value": 1.42
+            },
+            {
+              "name": "Surface_Tension_(25øC_mN_m)",
+              "value": 27.4
+            }
+          ],
+          "distanceToCluster": 781.31261917477286,
+          "ehs_S_SCORE": "\"1\"",
+          "ehs_H_SCORE": "\"2\"",
+          "ehs_E_SCORE": "\"5\"",
+          "ehs_COLOR_CODE": "\"9ACD32\""
+        },
+        {
+          "iD_Name": "\"ethyldiglycol\"",
+          "iD_CAS_Nr": "\"111-90-0\"",
+          "iD_EG_Nr": "\"NAV\"",
+          "iD_EG_Annex_Nr": "\"NAV\"",
+          "source": "\"Mixed\"",
+          "name": "\"ethyldiglycol\"",
+          "casNumber": "\"111-90-0\"",
+          "features": [
+            {
+              "name": "Boiling_Point__(øC)",
+              "value": 196.0
+            },
+            {
+              "name": "Melting_Point__(øC)",
+              "value": -76.0
+            },
+            {
+              "name": "Vapour_Pressure_(25øC_mmHg)",
+              "value": 0.129760671
+            },
+            {
+              "name": "Flash_Point__(øC)",
+              "value": 96.1
+            },
+            {
+              "name": "Autoignition_Temperature__(øC)",
+              "value": 204.0
+            },
+            {
+              "name": "Hansen_Delta_D_(MPa1_2)",
+              "value": 16.1
+            },
+            {
+              "name": "Hansen_Delta_P_(MPa1_2)",
+              "value": 9.2
+            },
+            {
+              "name": "Hansen_Delta_H_(MPa1_2)",
+              "value": 12.2
+            },
+            {
+              "name": "Solubility_Water_(20_øC_g_L)",
+              "value": 1000.0
+            },
+            {
+              "name": "Density_(25øC__kg_L)",
+              "value": 1.0
+            },
+            {
+              "name": "Viscosity_(25øC__mPa_s)",
+              "value": 3.71
+            },
+            {
+              "name": "Relative_Vapour_Density__(Air=1)",
+              "value": 4.63
+            },
+            {
+              "name": "Log_P_Octanol_Water_(20øC)",
+              "value": -0.54
+            },
+            {
+              "name": "Refractive_Index_(20øC)",
+              "value": 1.427
+            },
+            {
+              "name": "Surface_Tension_(25øC_mN_m)",
+              "value": 33.57
+            }
+          ],
+          "distanceToCluster": 791.72550553812744,
+          "ehs_S_SCORE": "\"4\"",
+          "ehs_H_SCORE": "\"0\"",
+          "ehs_E_SCORE": "\"5\"",
+          "ehs_COLOR_CODE": "\"FFD700\""
+        },
+        {
+          "iD_Name": "\"Diglyme\"",
+          "iD_CAS_Nr": "\"111-96-6\"",
+          "iD_EG_Nr": "\"203-924-4\"",
+          "iD_EG_Annex_Nr": "\"NAV\"",
+          "source": "\"Mixed\"",
+          "name": "\"Diglyme\"",
+          "casNumber": "\"111-96-6\"",
+          "features": [
+            {
+              "name": "Boiling_Point__(øC)",
+              "value": 162.0
+            },
+            {
+              "name": "Melting_Point__(øC)",
+              "value": -68.0
+            },
+            {
+              "name": "Vapour_Pressure_(25øC_mmHg)",
+              "value": 2.962743648
+            },
+            {
+              "name": "Flash_Point__(øC)",
+              "value": 56.0
+            },
+            {
+              "name": "Autoignition_Temperature__(øC)",
+              "value": 190.0
+            },
+            {
+              "name": "Hansen_Delta_D_(MPa1_2)",
+              "value": 15.7
+            },
+            {
+              "name": "Hansen_Delta_P_(MPa1_2)",
+              "value": 6.1
+            },
+            {
+              "name": "Hansen_Delta_H_(MPa1_2)",
+              "value": 6.5
+            },
+            {
+              "name": "Solubility_Water_(20_øC_g_L)",
+              "value": 1000.0
+            },
+            {
+              "name": "Density_(25øC__kg_L)",
+              "value": 0.938
+            },
+            {
+              "name": "Viscosity_(25øC__mPa_s)",
+              "value": 0.98
+            },
+            {
+              "name": "Relative_Vapour_Density__(Air=1)",
+              "value": 4.63
+            },
+            {
+              "name": "Log_P_Octanol_Water_(20øC)",
+              "value": -0.36
+            },
+            {
+              "name": "Refractive_Index_(20øC)",
+              "value": 1.406
+            },
+            {
+              "name": "Surface_Tension_(25øC_mN_m)",
+              "value": 29.56
+            }
+          ],
+          "distanceToCluster": 789.92917520076287,
+          "ehs_S_SCORE": "\"4\"",
+          "ehs_H_SCORE": "\"9\"",
+          "ehs_E_SCORE": "\"5\"",
+          "ehs_COLOR_CODE": "\"FF6347\""
+        },
+        {
+          "iD_Name": "\"Methyl_diglycol\"",
+          "iD_CAS_Nr": "\"111-77-3\"",
+          "iD_EG_Nr": "\"203-906-6\"",
+          "iD_EG_Annex_Nr": "\"NAV\"",
+          "source": "\"Mixed\"",
+          "name": "\"Methyl_diglycol\"",
+          "casNumber": "\"111-77-3\"",
+          "features": [
+            {
+              "name": "Boiling_Point__(øC)",
+              "value": 193.0
+            },
+            {
+              "name": "Melting_Point__(øC)",
+              "value": -58.57
+            },
+            {
+              "name": "Vapour_Pressure_(25øC_mmHg)",
+              "value": 0.180014804
+            },
+            {
+              "name": "Flash_Point__(øC)",
+              "value": 91.0
+            },
+            {
+              "name": "Autoignition_Temperature__(øC)",
+              "value": 215.0
+            },
+            {
+              "name": "Hansen_Delta_D_(MPa1_2)",
+              "value": 16.2
+            },
+            {
+              "name": "Hansen_Delta_P_(MPa1_2)",
+              "value": 7.8
+            },
+            {
+              "name": "Hansen_Delta_H_(MPa1_2)",
+              "value": 12.6
+            },
+            {
+              "name": "Solubility_Water_(20_øC_g_L)",
+              "value": 1000.0
+            },
+            {
+              "name": "Density_(25øC__kg_L)",
+              "value": 0.99
+            },
+            {
+              "name": "Viscosity_(25øC__mPa_s)",
+              "value": 3.48
+            },
+            {
+              "name": "Relative_Vapour_Density__(Air=1)",
+              "value": 4.1
+            },
+            {
+              "name": "Log_P_Octanol_Water_(20øC)",
+              "value": -0.682
+            },
+            {
+              "name": "Refractive_Index_(20øC)",
+              "value": 1.425
+            },
+            {
+              "name": "Surface_Tension_(25øC_mN_m)",
+              "value": 34.8
+            }
+          ],
+          "distanceToCluster": 788.56227512592227,
+          "ehs_S_SCORE": "\"6\"",
+          "ehs_H_SCORE": "\"7\"",
+          "ehs_E_SCORE": "\"7\"",
+          "ehs_COLOR_CODE": "\"FF6347\""
+        }
+      ]
+    }
+  ],
+  "dataSet": "trainingfile.csv",
+  "modelPath": "trainingfile XMEANS.model",
+  "date": "Wed May 17 09:43:02 CEST 2017",
+  "algorithm": "XMEANS"
+}
