@@ -124,7 +124,12 @@
     </Reference>
     <Reference Include="JavaSussolApplicationV20, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\..\ikvmbin-8.1.5717.0\ikvm-8.1.5717.0\bin\JavaSussolApplicationV20.dll</HintPath>
+      <HintPath>DLL\JavaSussolApplicationV20.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\packages\Microsoft.Office.Interop.Excel.15.0.4795.1000\lib\net20\Microsoft.Office.Interop.Excel.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <HintPath>..\packages\Newtonsoft.Json.10.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
@@ -148,7 +153,7 @@
     <Compile Include="Analyses\MinenMaxWaarden.cs" />
     <Compile Include="Analyses\Solvent.cs" />
     <Compile Include="Analyses\VectorData.cs" />
-    <Compile Include="DLLcaller.cs" />
+    <Compile Include="modelService.cs" />
     <Compile Include="Analyses\Model.cs" />
     <Compile Include="NuGet.Modules\JsonHelper.cs" />
     <Compile Include="Program.cs" />
